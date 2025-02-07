@@ -393,10 +393,14 @@ nav {
         font-weight: 600;
         font-size: 18px;
 
+        b {
+            font-size: 18px !important;
+        }
+
         a {
             img {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
             }
         }
     }
