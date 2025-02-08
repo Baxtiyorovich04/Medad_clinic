@@ -71,3 +71,22 @@ closeMenu.addEventListener("click", () => {
     menu.style.display = "none";
     html[0].style.overflow = "auto";
 });
+document.querySelectorAll('.read-more').forEach(button => {
+    button.addEventListener('click', function () {
+        const parent = this.parentElement;
+        const previewText = parent.querySelector('.text-preview');
+        const fullText = parent.querySelector('.text-full');
+
+        if (fullText.style.display === 'none') {
+            fullText.style.display = 'inline';
+            setTimeout(() => fullText.classList.add('show'), 10);
+            previewText.style.display = 'none';
+            this.textContent = 'Скрыть';
+        } else {
+            fullText.classList.remove('show');
+            setTimeout(() => fullText.style.display = 'none', 500);
+            previewText.style.display = 'inline';
+            this.textContent = 'Показать больше';
+        }
+    });
+});
