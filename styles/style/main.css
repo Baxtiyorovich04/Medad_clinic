@@ -302,6 +302,9 @@ iframe {
   border-radius: 50px;
   border: 2px solid #0088cc;
 }
+iframe .map-widget-content-view__frame {
+  display: none !important;
+}
 
 .map-info {
   display: flex;
@@ -341,7 +344,7 @@ iframe {
 }
 
 .social-sec {
-  margin-top: 90px;
+  margin-top: 190px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -398,6 +401,61 @@ iframe {
   border-radius: 10px;
 }
 
+.mb-card-map {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .mb-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .mb-map .mb-map-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  .mb-map .mb-map-info h1 {
+    font-size: 24px;
+  }
+  .mb-map .mb-map-info h3 {
+    font-size: 18px;
+  }
+  .mb-map .mb-map-info p {
+    font-size: 12px;
+  }
+  .mb-map .mb-map-info img {
+    display: none;
+  }
+  .mb-map .mb-map-info .mb-card-map {
+    display: block;
+  }
+  .mb-map .ds-card-map {
+    display: none;
+  }
+  .mb-map iframe {
+    width: 300px;
+    height: 300px;
+  }
+  .mb-social-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
 * {
   margin: 0;
   padding: 0;
