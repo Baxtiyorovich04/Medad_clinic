@@ -455,6 +455,14 @@ iframe .map-widget-content-view__frame {
     gap: 20px;
     align-items: center;
   }
+  .mb-social-info {
+    width: 300px !important;
+    height: 300px !important;
+    margin-bottom: 40px;
+  }
+  .mb-social-info img {
+    display: none;
+  }
 }
 * {
   margin: 0;
@@ -682,8 +690,8 @@ nav .Links button:hover {
 
 @media (max-width: 650px) {
   .back-to-top {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     font-size: 20px;
     bottom: 20px;
     right: 20px;
