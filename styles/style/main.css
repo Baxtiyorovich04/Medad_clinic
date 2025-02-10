@@ -488,16 +488,96 @@ iframe .map-widget-content-view__frame {
   transform: translateY(-5px);
 }
 
+.card-sec h1 {
+  font-family: "bold";
+  color: rgba(16, 126, 229, 0.8);
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
 .custom-carusel {
   margin-top: 90px;
   margin-bottom: 70px;
   width: 100%;
 }
+.custom-carusel .card-sec h1 {
+  font-family: "bold";
+  color: rgba(16, 126, 229, 0.8);
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.custom-carusel .service-card {
+  background: linear-gradient(135deg, #ffffff, #f8f9fa);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.custom-carusel .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.custom-carusel .service-card i {
+  font-size: 50px;
+  color: #007bff;
+  margin-bottom: 15px;
+  transition: color 0.3s ease-in-out;
+}
+.custom-carusel .service-card:hover i {
+  color: #0056b3;
+}
+.custom-carusel .service-card h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.custom-carusel .service-card p {
+  font-size: 14px;
+  color: #555;
+}
+.custom-carusel .service-card .btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
 
-.card-box .card:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #0185fd;
-  transition: all 0.3s ease;
+.service-card .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 6px 12px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.service-card .btn i {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.service-card .btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.card-text {
+  height: 72px;
 }
 
 * {
