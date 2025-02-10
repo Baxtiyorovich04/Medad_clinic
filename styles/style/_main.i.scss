@@ -1,0 +1,39 @@
+.carousel-item img {
+
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.service-card {
+    transition: 0.3s;
+}
+
+.carousel-item {
+    height: 500px;
+
+    @media (max-width: 650px) {
+        height: 500px;
+    }
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.custom-carusel {
+    margin-top: 90px;
+    margin-bottom: 70px;
+    width: 100%;
+
+}
+
+.card-box {
+    .card {
+        &:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid #0185fd;
+            transition: all 0.3s ease;
+        }
+
+    }
+}
