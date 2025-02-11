@@ -71,17 +71,30 @@
 @media (max-width: 650px) {
     .doctor-card {
         flex-direction: column;
+
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 95px;
+        margin-bottom: 45px;
 
+        h2 {
+            font-size: 18px;
+        }
+
+        .doctor-position {
+            font-size: 16px;
+        }
+
+        .doctor-description {
+            font-size: 12px;
+        }
 
     }
 
     .doctor-img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 }

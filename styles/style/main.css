@@ -538,11 +538,21 @@ iframe .map-widget-content-view__frame {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 95px;
+    margin-bottom: 45px;
+  }
+  .doctor-card h2 {
+    font-size: 18px;
+  }
+  .doctor-card .doctor-position {
+    font-size: 16px;
+  }
+  .doctor-card .doctor-description {
+    font-size: 12px;
   }
   .doctor-img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 }
 * {
