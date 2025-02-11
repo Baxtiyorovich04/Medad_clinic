@@ -3,6 +3,7 @@
 @import "./footer";
 @import "./contacts";
 @import "./main.i";
+@import "./doctors";
 
 
 
@@ -428,5 +429,164 @@ nav {
 
 
 
+
+}
+
+@media (min-width: 650px) and (max-width: 1024px) {
+
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .mb-container {
+        max-width: 600px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    .mb-display-none {
+        display: none;
+
+    }
+
+    .mb-links {
+        a {
+            display: none;
+        }
+
+        #translate-btn {
+            width: 50px;
+            height: 40px;
+        }
+    }
+
+    .mb-nav {
+        .mb-nav-icons {
+            display: none;
+        }
+    }
+
+
+
+    .mb-menu {
+        transform: translateY(0);
+
+        .mb-menu-nav-icons {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            a {
+
+                text-decoration: none;
+                font-family: var(--font-family);
+                font-weight: 800;
+                font-size: 24px;
+                color: #0185fd;
+                position: relative;
+                margin-top: 20px;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                a {
+
+                    text-decoration: none;
+                    font-family: var(--font-family);
+                    font-weight: 800;
+                    font-size: 24px;
+                    color: #0185fd;
+                    position: relative;
+                    margin-top: 20px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                }
+            }
+        }
+
+        .mb-menu-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            a {
+                text-decoration: none;
+                font-family: var(--font-family);
+                font-weight: 800;
+                font-size: 24px;
+                color: #0185fd;
+                position: relative;
+                margin-top: 20px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+
+
+
+        }
+
+        #close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 20px;
+            cursor: pointer;
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .mb-logo {
+        font-weight: 600;
+        font-size: 18px;
+
+        b {
+            font-size: 18px !important;
+        }
+
+        a {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+    .mb-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .ft-Logo {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+
+            b {
+                font-size: 18px;
+            }
+        }
+    }
 
 }

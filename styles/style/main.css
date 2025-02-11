@@ -11,13 +11,19 @@
   text-align: center;
 }
 .specialists-title {
-  font-size: 24px;
-  margin-bottom: 30px;
-  color: #333;
+  font-size: 32px;
   margin-top: 100px;
-  font-family: "bold";
-  font-weight: 800;
-  color: #0056b3;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+@media (max-width: 650px) {
+  .specialists-title {
+    color: #333;
+    font-size: 24px;
+    font-family: "bold";
+    font-weight: 800;
+    color: #007bff;
+  }
 }
 .specialists-grid {
   display: grid;
@@ -458,6 +464,87 @@ iframe .map-widget-content-view__frame {
   height: 72px;
 }
 
+#doctor-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.doctor-card {
+  display: flex;
+  max-width: 800px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.specialist-info {
+  height: 45px;
+}
+
+.specialist-content a {
+  text-decoration: none;
+  width: 100%;
+  height: 48px;
+}
+
+.doctor-img {
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.doctor-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.doctor-position {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.doctor-description {
+  color: #555;
+}
+
+.specs-back-btn {
+  background-color: #007bff;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+.specs-back-btn:hover {
+  background-color: #0e4f95;
+}
+
+@media (max-width: 650px) {
+  .doctor-card {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .doctor-img {
+    width: 300px;
+    height: 300px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -683,6 +770,124 @@ nav .Links button:hover {
 }
 
 @media (max-width: 650px) {
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .menu {
+    display: block;
+  }
+  .mb-container {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .mb-display-none {
+    display: none;
+  }
+  .mb-links a {
+    display: none;
+  }
+  .mb-links #translate-btn {
+    width: 50px;
+    height: 40px;
+  }
+  .mb-nav .mb-nav-icons {
+    display: none;
+  }
+  .mb-menu {
+    transform: translateY(0);
+  }
+  .mb-menu .mb-menu-nav-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mb-menu .mb-menu-nav-icons a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    color: #0185fd;
+    position: relative;
+    margin-top: 20px;
+  }
+  .mb-menu .mb-menu-nav-icons div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .mb-menu .mb-menu-nav-icons div a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    color: #0185fd;
+    position: relative;
+    margin-top: 20px;
+  }
+  .mb-menu .mb-menu-nav-icons div a img {
+    width: 30px;
+    height: 30px;
+  }
+  .mb-menu .mb-menu-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .mb-menu .mb-menu-links a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    color: #0185fd;
+    position: relative;
+    margin-top: 20px;
+  }
+  .mb-menu .mb-menu-links a img {
+    width: 30px;
+    height: 30px;
+  }
+  .mb-menu #close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+  }
+  .mb-logo {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .mb-logo b {
+    font-size: 18px !important;
+  }
+  .mb-logo a img {
+    width: 40px;
+    height: 40px;
+  }
+  .mb-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mb-footer .ft-Logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .mb-footer .ft-Logo b {
+    font-size: 18px;
+  }
+}
+@media (min-width: 650px) and (max-width: 1024px) {
   .back-to-top {
     width: 45px;
     height: 45px;

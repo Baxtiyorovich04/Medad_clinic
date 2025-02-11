@@ -257,13 +257,20 @@
     text-align: center;
 
     &-title {
-        font-size: 24px;
-        margin-bottom: 30px;
-        color: #333;
+        @media (max-width: 650px) {
+            color: #333;
+            font-size: 24px;
+            font-family: "bold";
+            font-weight: 800;
+            color: #007bff;
+
+        }
+
+        font-size: 32px;
         margin-top: 100px;
-        font-family: "bold";
-        font-weight: 800;
-        color: #0056b3;
+        color: #007bff;
+        margin-bottom: 30px;
+
     }
 
     &-grid {
