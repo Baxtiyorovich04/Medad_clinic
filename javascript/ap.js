@@ -99,13 +99,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="doctor-card">
                 <img src="${doctor.image}" alt="${doctor.name}" class="doctor-img">
                 <div class="doctor-info">
-                    <h2>${doctor.name}</h2>
-                    <p class="doctor-position">${doctor.position}</p>
+                    <h2 data-key="${doctor.nameTrans}">${doctor.name}</h2>
+                    <p class="doctor-position" data-key="${doctor.posTrans}">${doctor.position}</p>
                     <p class="doctor-description" data-key="${doctor.number}">${doctor.description}</p>
                       <div class=" .specs-back-btn-sec">
             <a href="./specialists.html" class="specs-back-btn" data-key="back">ortga</a>
         </div>
-                    
                     
                 </div>
             </div>

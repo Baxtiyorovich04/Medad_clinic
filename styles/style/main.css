@@ -281,8 +281,8 @@ iframe .map-widget-content-view__frame {
 }
 
 .social-info img {
-  width: auto;
-  height: 600px;
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -345,8 +345,18 @@ iframe .map-widget-content-view__frame {
     height: 300px !important;
     margin-bottom: 40px;
   }
+  .mb-social-info h1 {
+    font-size: 24px;
+  }
+  .mb-social-info h3 {
+    font-size: 18px;
+  }
+  .mb-social-info p {
+    font-size: 12px;
+  }
   .mb-social-info img {
-    display: none;
+    width: 100px;
+    height: 100px;
   }
 }
 .carousel-item img {
@@ -550,9 +560,114 @@ iframe .map-widget-content-view__frame {
   .doctor-card .doctor-description {
     font-size: 12px;
   }
+  .specs-back-btn {
+    font-size: 16px;
+  }
   .doctor-img {
     width: 200px;
     height: 200px;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.carousel-section {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+.carousel-slide img {
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.advantages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.advantages li {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact {
+  background: #007bff;
+  color: white;
+  padding: 20px 0;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+@media (max-width: 650px) {
+  .team-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-member {
+    width: 80%;
   }
 }
 * {
