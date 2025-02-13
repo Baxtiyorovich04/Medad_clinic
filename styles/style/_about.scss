@@ -1,102 +1,639 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-}
+// .about-sec {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     gap: 50px;
+//     margin-top: 100px !important;
+//     padding: 10px;
+// }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+// .about-title {
+//     padding: 20px;
+//     width: 100%;
+//     height: auto;
+//     border: 1px solid #007bff;
+//     background: #f9f9f9;
+//     border-radius: 12px;
+//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+//     overflow: hidden;
+//     transition: transform 0.3s ease-in-out;
+//     text-align: left;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+
+//     div {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         gap: 40px;
+//     }
+
+//     img {
+//         width: 400px;
+//         height: 300px;
+//         border-radius: 20px;
+//         margin-top: 20px;
+//     }
+
+//     h1 {
+//         text-align: center;
+//         font-size: 32px;
+//         color: #007bff;
+//         margin-bottom: 30px;
+
+//         font-family: "lato_black";
+//     }
+
+//     h2 {
+//         text-align: center;
+//         color: #010406;
+//         font-family: "bold";
+//         width: 100%;
+//         font-weight: 800;
+//         font-size: 24px;
+//     }
+// }
+
+
+// .carousel-container {
+//     display: flex;
+//     transition: transform 0.5s ease-in-out;
+// }
+
+// .carousel-slide {
+//     min-width: 100%;
+//     text-align: center;
+//     color: white;
+// }
+
+// .carousel-slide img {
+//     width: 80%;
+//     max-width: 600px;
+//     height: auto;
+//     border-radius: 12px;
+// }
+
+// .carousel-slide h3 {
+//     margin-top: 15px;
+//     font-size: 1.5rem;
+// }
+
+
+// .about-sec {
+//     text-align: center;
+//     padding: 50px 20px;
+// }
+
+// .about-title h1 {
+//     font-size: 32px;
+//     color: #007bff;
+//     margin-bottom: 20px;
+// }
+
+// .about-title h2 {
+//     font-size: 20px;
+//     color: #333;
+//     margin-bottom: 20px;
+// }
+
+// .about-images {
+//     display: flex;
+//     justify-content: center;
+//     gap: 20px;
+//     margin-top: 20px;
+// }
+
+// .about-images img {
+//     width: 45%;
+//     max-width: 400px;
+//     height: auto;
+//     border-radius: 12px;
+// }
+
+
+// .advantages {
+
+//     padding: 50px 20px;
+//     text-align: center;
+// }
+
+// .advantages h2 {
+//     color: #007bff;
+//     margin-bottom: 20px;
+// }
+
+// .advantages ul {
+//     list-style: none;
+//     padding: 0;
+// }
+
+// .advantages li {
+//     font-size: 18px;
+//     color: #333;
+//     margin: 10px 0;
+// }
+
+// /* Секция "Bizning jamoa" */
+// .team {
+//     background: #f9f9f9;
+//     padding: 50px 20px;
+//     text-align: center;
+// }
+
+// .team h2 {
+//     color: #007bff;
+//     margin-bottom: 20px;
+// }
+
+// .team-grid {
+//     display: flex;
+//     justify-content: center;
+//     gap: 20px;
+//     flex-wrap: wrap;
+// }
+
+// .team-member {
+//     background: white;
+//     padding: 20px;
+//     border-radius: 12px;
+//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+//     text-align: center;
+//     width: 250px;
+// }
+
+// .team-member img {
+//     width: 100%;
+//     border-radius: 12px;
+// }
+
+// .team-member h3 {
+//     color: #333;
+//     margin: 10px 0 5px;
+// }
+
+// .team-member p {
+//     color: #666;
+// }
+
+// /* Секция "Bog‘lanish" */
+// .contact {
+//     background: #007bff;
+//     color: white;
+//     padding: 50px 20px;
+//     text-align: center;
+// }
+
+// .contact h2 {
+//     margin-bottom: 20px;
+// }
+
+// .contact p {
+//     font-size: 18px;
+//     margin: 10px 0;
+// }
+
+// /* Адаптивность */
+// @media (max-width: 650px) {
+//     .carousel-slide img {
+//         width: 90%;
+//     }
+
+//     .about-images {
+//         flex-direction: column;
+//         align-items: center;
+//     }
+
+//     .about-images img {
+//         width: 90%;
+//     }
+
+//     .team-grid {
+//         flex-direction: column;
+//         align-items: center;
+//     }
+// }
+
+// /* Секция карусели */
+// .carousel-section {
+//     width: 100%;
+//     padding: 50px 0;
+
+// }
+
+// .carousel-container {
+//     display: flex;
+//     overflow: hidden;
+//     width: 100%;
+//     justify-content: center;
+//     position: relative;
+// }
+
+// .carousel-slide {
+//     min-width: 80%;
+//     transition: transform 0.5s ease-in-out;
+//     text-align: center;
+// }
+
+// .carousel-slide img {
+//     width: 100%;
+//     max-height: 400px;
+//     object-fit: cover;
+//     border-radius: 12px;
+// }
+
+// .carousel-slide h3 {
+//     margin-top: 15px;
+//     font-size: 20px;
+//     color: #007bff;
+// }
+
+// /* О нас */
+// .about-sec {
+//     text-align: center;
+//     padding: 50px 20px;
+//     background: #fff;
+//     border-radius: 12px;
+//     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+//     margin: 50px auto;
+//     max-width: 1200px;
+// }
+
+// .about-title h1 {
+//     font-size: 36px;
+//     color: #007bff;
+//     margin-bottom: 20px;
+// }
+
+// .about-title h2 {
+//     font-size: 20px;
+//     color: #333;
+//     margin-bottom: 20px;
+// }
+
+// .about-images {
+//     display: flex;
+//     justify-content: center;
+//     gap: 20px;
+//     flex-wrap: wrap;
+// }
+
+// .about-images img {
+//     width: 300px;
+//     height: 200px;
+//     border-radius: 12px;
+//     object-fit: cover;
+// }
+
+
+// .advantages {
+//     text-align: center;
+//     padding: 50px 20px;
+// }
+
+// .advantages h2 {
+//     font-size: 28px;
+//     color: #007bff;
+//     margin-bottom: 30px;
+// }
+
+// .advantages-grid {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//     gap: 25px;
+//     justify-content: center;
+//     max-width: 1100px;
+//     margin: auto;
+// }
+
+// .advantage-card {
+//     background: #fff;
+//     border-radius: 12px;
+//     padding: 20px;
+//     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s ease-in-out;
+//     text-align: center;
+// }
+
+// .advantage-card:hover {
+//     transform: scale(1.05);
+// }
+
+// .advantage-card i {
+//     font-size: 40px;
+//     color: #007bff;
+//     margin-bottom: 15px;
+// }
+
+// .advantage-card h3 {
+//     font-size: 18px;
+//     margin-bottom: 10px;
+// }
+
+// .advantage-card p {
+//     font-size: 14px;
+//     color: #666;
+// }
+
+// @media (max-width: 768px) {
+//     .carousel-slide img {
+//         max-height: 300px;
+//     }
+
+//     .about-title h1 {
+//         font-size: 28px;
+//     }
+
+//     .about-title h2 {
+//         font-size: 18px;
+//     }
+
+//     .about-images img {
+//         width: 250px;
+//         height: 180px;
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     .carousel-slide img {
+//         max-height: 250px;
+//     }
+
+//     .about-title h1 {
+//         font-size: 24px;
+//     }
+
+//     .about-title h2 {
+//         font-size: 16px;
+//     }
+
+//     .about-images img {
+//         width: 100%;
+//         height: auto;
+//     }
+// }
+
+// .carousel-section {
+//     width: 100%;
+//     overflow: hidden;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: #f9f9f9;
+//     padding: 20px 0;
+// }
+
+// .carousel-container {
+//     width: 80%;
+//     max-width: 900px;
+//     overflow: hidden;
+//     position: relative;
+//     border-radius: 10px;
+//     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+// }
+
+// .carousel-track {
+//     display: flex;
+//     transition: transform 0.5s ease-in-out;
+// }
+
+// .carousel-slide {
+//     min-width: 100%;
+//     box-sizing: border-box;
+//     text-align: center;
+// }
+
+// .carousel-slide img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 10px;
+// }
+
+// .carousel-slide h3 {
+//     margin-top: 10px;
+//     font-size: 18px;
+//     font-weight: 600;
+//     color: #333;
+// }
+
+// /* Медиа-запрос для мобильных устройств */
+// @media (max-width: 768px) {
+//     .carousel-container {
+//         width: 95%;
+//     }
+// }
+
+
+.about-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    padding: 10px;
     text-align: center;
-    padding: 40px 0;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
 }
 
-h2 {
+.about-title {
+    padding: 20px;
+    width: 100%;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-title h1 {
+    font-size: 36px;
     color: #007bff;
     margin-bottom: 20px;
+    font-family: "lato_black";
 }
 
-.carousel-section {
-    width: 100%;
-    overflow: hidden;
-    background: #fff;
+.about-title h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "bold";
+    font-weight: 800;
 }
 
-.carousel-container {
+.about-images {
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.carousel-slide {
-    flex: 0 0 100%;
-    scroll-snap-align: center;
-    text-align: center;
-}
-
-.carousel-slide img {
-    width: 100%;
-    max-height: 400px;
+.about-images img {
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
     object-fit: cover;
 }
 
-.advantages ul {
-    list-style: none;
-    padding: 0;
+.advantages {
+    text-align: center;
+    padding: 50px 20px;
 }
 
-.advantages li {
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    display: inline-block;
+.advantages h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 30px;
 }
 
-.team-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
 }
 
-.team-member {
-    background: white;
+.advantage-card {
+    background: #fff;
+    border-radius: 12px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
     text-align: center;
 }
 
-.team-member img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.advantage-card:hover {
+    transform: scale(1.01);
+}
+
+.advantage-card i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.advantage-card h3 {
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-.contact {
-    background: #007bff;
-    color: white;
-    padding: 20px 0;
+.advantage-card p {
+    font-size: 14px;
+    color: #666;
 }
 
-.contact p {
-    margin: 10px 0;
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-@media (max-width: 650px) {
-    .team-grid {
-        flex-direction: column;
-        align-items: center;
+.about-card {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.about-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column !important;
+        text-align: center;
     }
 
-    .team-member {
-        width: 80%;
+    .about-card {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .icon {
+        margin-bottom: 10px;
+    }
+
+    .mb-advantages {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-title h1 {
+        font-size: 28px;
+    }
+
+    .about-title h2 {
+        font-size: 18px;
+    }
+
+    .about-images img {
+        width: 250px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-title h1 {
+        font-size: 24px;
+    }
+
+    .about-title h2 {
+        font-size: 16px;
+    }
+
+    .about-images img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .advantages-grid {
+        grid-template-columns: 1fr;
+
     }
 }
