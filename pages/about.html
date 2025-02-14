@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -80,23 +81,22 @@
         </div>
     </div> -->
     <section class="about-section">
-        <div class="container">
-            <div class="about-card">
+        <div class="container mb-container">
+            <div class="about-card" data-aos="fade-up" data-aos-duration="2000">
                 <div class="icon">
                     <i class="fas fa-hospital"></i>
                 </div>
                 <div class="about-content">
-                    <h1 data-key="about-us">Biz haqimizda</h1>
-                    <p>
-                        <strong>Medad Med</strong> — bizning maqsadimiz bemorlarimizga eng yaxshi tibbiy xizmatni taqdim
+                    <h1 data-key="about">Biz haqimizda</h1>
+                    <p data-key="about-us">
+                        Medad Med — bizning maqsadimiz bemorlarimizga eng yaxshi
+                        tibbiy xizmatni taqdim
                         etishdir.
                         Zamonaviy texnologiyalar va tajribali mutaxassislar yordamida sog‘liqni saqlashda ilg‘or
                         usullardan foydalanamiz.
                     </p>
                 </div>
-                <div class="about-image">
-                    <img src="../styles/assets/imgs/reseption.jpg" alt="Clinic Reception">
-                </div>
+
             </div>
 
         </div>
@@ -106,28 +106,62 @@
 
     <section class="advantages mb-advantages">
         <div class="container mb-container">
-            <h2>Nega bizni tanlashadi?</h2>
+            <h2 data-key="why" data-aos="zoom-out-right">Nega bizni tanlashadi?</h2>
             <div class="advantages-grid">
-                <div class="advantage-card">
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
                     <i class="fas fa-user-md"></i>
-                    <h3>Tajribali shifokorlar</h3>
-                    <p>Barcha shifokorlarimiz yuqori malakaga ega.</p>
+                    <h3 data-key="doctors-p">Tajribali shifokorlar</h3>
+                    <p data-key="doc-experiense">Barcha shifokorlarimiz yuqori malakaga ega.</p>
                 </div>
-                <div class="advantage-card">
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
                     <i class="fas fa-hospital"></i>
-                    <h3>Eng so‘nggi tibbiy uskunalar</h3>
-                    <p>Biz eng zamonaviy tibbiy texnologiyalardan foydalanamiz.</p>
+                    <h3 data-key="latest">Eng so‘nggi tibbiy uskunalar</h3>
+                    <p data-key="texnologies">Biz eng zamonaviy tibbiy texnologiyalardan foydalanamiz.</p>
                 </div>
-                <div class="advantage-card">
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
                     <i class="fas fa-procedures"></i>
-                    <h3>Bemorlar uchun qulay sharoitlar</h3>
-                    <p>Biz bemorlarimizga maksimal qulaylik yaratamiz.</p>
+                    <h3 data-key="comfort">Bemorlar uchun qulay sharoitlar</h3>
+                    <p data-key="advise">Biz bemorlarimizga maksimal qulaylik yaratamiz.</p>
                 </div>
-                <div class="advantage-card">
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
                     <i class="fas fa-hand-holding-heart"></i>
-                    <h3>Individual yondashuv</h3>
-                    <p>Har bir bemorga individual yondashuvni ta'minlaymiz.</p>
+                    <h3 data-key="individual">Individual yondashuv</h3>
+                    <p data-key="pac-ind">Har bir bemorga individual yondashuvni ta'minlaymiz.</p>
                 </div>
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3 data-key="diagnostics">Тщательная диагностика</h3>
+                    <p data-key="diagnostics-desc">Используем современные методы диагностики для точного выявления
+                        заболеваний.</p>
+                </div>
+
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fas fa-user-md"></i>
+                    <h3 data-key="specialists">Опытные специалисты</h3>
+                    <p data-key="specialists-desc">В нашей клинике работают квалифицированные и опытные врачи.</p>
+                </div>
+
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fas fa-microscope"></i>
+                    <h3 data-key="technology">Современные технологии</h3>
+                    <p data-key="technology-desc">Мы применяем инновационные медицинские технологии и оборудование.</p>
+                </div>
+
+
+
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3 data-key="individual-treatment">Персонализированный подход</h3>
+                    <p data-key="individual-treatment-desc">Разрабатываем индивидуальные планы лечения для каждого
+                        пациента.</p>
+                </div>
+
+                <div class="advantage-card" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3 data-key="affordable">Доступные цены</h3>
+                    <p data-key="affordable-desc">Мы предлагаем качественные медицинские услуги по разумным ценам.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -206,9 +240,9 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-
-
+    AOS.init();
 </script>
 
 </html>

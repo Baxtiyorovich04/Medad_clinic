@@ -201,6 +201,18 @@ document.addEventListener("DOMContentLoaded", () => {
         loadLanguage(currentLang);
     });
 });
+function toggleCards() {
+    const hiddenCards = document.getElementById("hidden-cards");
+    const toggleBtn = document.getElementById("toggle-btn");
+
+    if (hiddenCards.style.display === "none") {
+        hiddenCards.style.display = "flex";
+        toggleBtn.textContent = "Yopish";
+    } else {
+        hiddenCards.style.display = "none";
+        toggleBtn.textContent = "Qolganlarini ko'rsatish";
+    }
+}
 
 function loadLanguage(lang) {
     fetch(`../styles/lang/${lang}.json`)
