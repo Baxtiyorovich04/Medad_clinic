@@ -1,0 +1,397 @@
+{
+    "services": [
+        {},
+        {
+            "key": "urology",
+            "title": "service-urology",
+            "title-trans": "service-urology",
+            "doctors": [
+                {
+                    "id": "ataniyazov",
+                    "name": "spets-1name",
+                    "name-trans": "spets-1name",
+                    "position": "spets-1pos",
+                    "positionTrans": "spets-1pos",
+                    "image": "../styles/assets/imgs/atnayazov.png"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Варикоцелэктомия",
+                    "name-trans": "varicocelectomy",
+                    "cost": "2 200 000"
+                },
+                {
+                    "name": "Варикоцелэктомия двухсторонняя",
+                    "name-trans": "varicocelectomy-bilateral",
+                    "cost": "3 500 000"
+                },
+                {
+                    "name": "Взятие мазка",
+                    "name-trans": "smear-test",
+                    "cost": "35 000"
+                },
+                {
+                    "name": "Взятие мазка из уретры",
+                    "name-trans": "urethral-smear-test",
+                    "cost": "35 000"
+                },
+                {
+                    "name": "Вторичная консультация уролога",
+                    "name-trans": "urologist-secondary-consultation",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Забор эякулята",
+                    "name-trans": "semen-collection",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Инстилляция уретры",
+                    "name-trans": "urethral-instillation",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Иссечение парауретральной кисты",
+                    "name-trans": "paraurethral-cyst-excision",
+                    "cost": "900 000"
+                },
+                {
+                    "name": "ЛОД-терапия",
+                    "name-trans": "lod-therapy",
+                    "cost": "30 000"
+                },
+                {
+                    "name": "Операция при гидроцеле кисты семенного канатика",
+                    "name-trans": "hydrocele-spermatic-cord-cyst-surgery",
+                    "cost": "2 500 000"
+                },
+                {
+                    "name": "Первичная консультация уролога",
+                    "name-trans": "urologist-initial-consultation",
+                    "cost": "70 000"
+                },
+                {
+                    "name": "Первичный осмотр уролога и назначение лечения",
+                    "name-trans": "urologist-initial-exam-and-treatment",
+                    "cost": "100 000"
+                }
+            ]
+        },
+        {
+            "key": "massaj",
+            "title": "massage",
+            "title-trans": "massage",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Антицеллюлитный массаж",
+                    "name-trans": "antilutnion-massage",
+                    "cost": "200 000"
+                },
+                {
+                    "name": "Детский общий массаж",
+                    "name-trans": "baby-all-massage",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Массаж верхних конечностей",
+                    "name-trans": "high-parts-massage",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "Массаж воротниковой зоны",
+                    "name-trans": "neck-massage",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Массаж головы",
+                    "name-trans": "headMassage",
+                    "cost": "50 000"
+                },
+                {
+                    "name": " Массаж головы + шейно-воротниковая зона",
+                    "name-trans": "HeadAndNeck",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "Массаж головы",
+                    "name-trans": "headMassage",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Массаж грудной клетки",
+                    "name-trans": "ChestMassage",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "Массаж нижних конечностей детский",
+                    "name-trans": "ChildLegMassage",
+                    "cost": "70 000"
+                },
+                {
+                    "name": "Массаж ног",
+                    "name-trans": "LegMassage",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Массаж пояснично-грудного отдела позвоночника",
+                    "name-trans": "LowerBackMassage",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Массаж простаты",
+                    "name-trans": "ProstateMassage",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Массаж расслабляющий",
+                    "name-trans": "RelaxMassage",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Массаж суставов",
+                    "name-trans": "JointMassage",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "Массаж: Точечный",
+                    "name-trans": "PointMassage",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Массажная кровать Нуга Бест",
+                    "name-trans": "NugaBestMassageBed",
+                    "cost": "60 000"
+                },
+                {
+                    "name": "Общий массаж для взрослых",
+                    "name-trans": "GeneralMassage",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "Спортивный массаж",
+                    "name-trans": "SportMassage",
+                    "cost": "100 000"
+                }
+            ]
+        },
+        {
+            "key": "dopler",
+            "title": "dopler",
+            "title-trans": "dopler",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Допплерография маточно-плацентарного кровотока",
+                    "name-trans": "DopplerUteroplacental",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "УЗИ органов мошонки с доплерографией",
+                    "name-trans": "DopplerScrotalUltrasound",
+                    "cost": "80 000"
+                }
+            ]
+        },
+        {
+            "key": "kidurology",
+            "title": "kidurology",
+            "title-trans": "kidurology",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Вторичная консультация уролога",
+                    "name-trans": "kidurologistSecondaryConsultation",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Операция при гидроцеле кисты семенного канатика",
+                    "name-trans": "kidhydrocele-spermatic-cord-cyst-surgery",
+                    "cost": "2 500 000"
+                },
+                {
+                    "name": "Первичный осмотр уролога и назначение лечения",
+                    "name-trans": "kidurologist-initial-exam-and-treatment",
+                    "cost": "100 000"
+                }
+            ]
+        },
+        {
+            "key": "gynecology",
+            "title": "service-gynecology",
+            "title-trans": "service-gynecology",
+            "doctors": [
+                {
+                    "id": "ganjiyeva",
+                    "name": "spets-4name",
+                    "name-trans": "spets-4name",
+                    "position": "spets-4pos",
+                    "positionTrans": "spets-4pos",
+                    "image": "../styles/assets/imgs/ganjiyeva.png"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Вскрытие абсцесса бартолиновой железы",
+                    "name-trans": "bartolin-abstsessini-ochish",
+                    "cost": "50 0000"
+                },
+                {
+                    "name": "Электроконизация шейки матки",
+                    "name-trans": "bachadon-boyni-elektrokonizatsiyasi",
+                    "cost": "110 0000"
+                },
+                {
+                    "name": "Аблация эндометрия",
+                    "name-trans": "endometriya-ablatsiyasi",
+                    "cost": "70 0000"
+                },
+                {
+                    "name": "Вакуум на аспираторе (полипэктомия)",
+                    "name-trans": "vakuum-polipektomiya",
+                    "cost": " 1 000 000"
+                },
+                {
+                    "name": "Введение (установка) внутриматочной спирали ВМС",
+                    "name-trans": "vms-o'rnatish",
+                    "cost": " 100 000"
+                },
+                {
+                    "name": "Взятие мазка",
+                    "name-trans": "mazok-olish",
+                    "cost": "35 000"
+                },
+                {
+                    "name": "Взятие мазка на ПАП-тест",
+                    "name-trans": "pap-test-uchun-mazok-olish",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "ВПЧ-тест",
+                    "name-trans": "vpch-test",
+                    "cost": "235 000"
+                },
+                {
+                    "name": "Вторичная консультация гинеколога",
+                    "name-trans": "ikkinchi-ginekolog-konsultatsiyasi",
+                    "cost": "70 000"
+                },
+                {
+                    "name": "Лазер (лазерная терапия)",
+                    "name-trans": "lazer-terapiya",
+                    "cost": "70 000"
+                },
+                {
+                    "name": "Первичная консультация гинеколога",
+                    "name-trans": "birinchi-ginekolog-konsultatsiyasi",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Санация влагалища",
+                    "name-trans": "vaginal-sanitatsiya",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "Сложное удаление внутриматочной спирали ВМС",
+                    "name-trans": "murakkab-vms-olib-tashlash",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "Удаление внутриматочной спирали ВМС",
+                    "name-trans": "vms-olib-tashlash",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Удаление кисты цервикального канала",
+                    "name-trans": "servikal-kanal-kistasini-olib-tashlash",
+                    "cost": "700 000"
+                },
+                {
+                    "name": "Эксцизия шейки матки",
+                    "name-trans": "bachadon-boyni-ekstsiziyasi",
+                    "cost": "850 000"
+                }
+            ]
+        },
+        {
+            "key": "cardylogy",
+            "title": "cardylogy",
+            "title-trans": "cardylogy",
+            "doctors": [
+                {
+                    "id": "sharipovna",
+                    "name": "spets-3name",
+                    "name-trans": "spets-3name",
+                    "position": "spets-3pos",
+                    "positionTrans": "spets-3pos",
+                    "image": "../styles/assets/imgs/Kurbanbayeva.png"
+                }
+            ],
+            "prices": []
+        },
+        {
+            "key": "hirurguya",
+            "title": "hirurguya",
+            "title-trans": "hirurguya",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Вскрытие абсцесса 1-категории сложности",
+                    "name-trans": "incision-abscess-1-category",
+                    "cost": "300 000"
+                },
+                {
+                    "name": "Вскрытие абсцесса 2-категории сложности",
+                    "name-trans": "incision-abscess-2-category",
+                    "cost": "500 000"
+                },
+                {
+                    "name": "Вскрытие абсцесса эпителиального копчикового хода",
+                    "name-trans": "incision-epithelial-coccygeal-tract",
+                    "cost": "500 000"
+                },
+                {
+                    "name": "Вскрытие гидраденита",
+                    "name-trans": "incision-hidradenitis",
+                    "cost": "200 000"
+                },
+                {
+                    "name": "Вскрытие карбункула",
+                    "name-trans": "incision-carbuncle",
+                    "cost": "200 000"
+                },
+                {
+                    "name": "Вскрытие мастита",
+                    "name-trans": "incision-mastitis",
+                    "cost": "500 000"
+                },
+                {
+                    "name": "Вскрытие подкожно-подслизистого парапроктита",
+                    "name-trans": "incision-subcutaneous-paraproctitis",
+                    "cost": "500 000"
+                },
+                {
+                    "name": "Вскрытие постинъекционного абсцесса",
+                    "name-trans": "incision-postinjection-abscess",
+                    "cost": "300 000"
+                },
+                {
+                    "name": "Вскрытие флегмон мягких тканей",
+                    "name-trans": "incision-phlegmon-soft-tissues",
+                    "cost": "200 000"
+                },
+                {
+                    "name": "Вскрытие фурункула",
+                    "name-trans": "incision-furuncle",
+                    "cost": "200 000"
+                },
+                {
+                    "name": "Грыжесечение: паховая грыжа",
+                    "name-trans": "hernia-surgery-inguinal",
+                    "cost": " 2 000 000"
+                }
+            ]
+        }
+    ]
+}

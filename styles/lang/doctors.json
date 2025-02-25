@@ -45,5 +45,55 @@
         "posTrans": "spets-4pos",
         "image": "../styles/assets/imgs/ganjiyeva.png",
         "description": "Oliy toifali shifokorman. Shu sohada 28 yildan beri faoliyat yuritaman. O'z sohamda doimiy ravishda malakamni oshirishga harakat qilaman. Xalqaro simpoziumlarda, respublikamizdagi malaka oshirish kurslarida aktiv qatnashaman. Hozirgi kunda ayollarimiz orasida ko'p uchraydigan bachadon bo'yni muammolari, bepushtlik, surunkali yallig'lanish kasalliklari, kontrasepsiya masalalari bo'yicha malakali tibbiy yordam ko'rsataman. Klinikamizda kolposkop va radioto'lqinli Fotek apparatlarida ishlayman. Bachadon bo'yni muammolarida xirurgik amaliyotlarni Fotek apparatida o'tkazaman. Bu apparatning juda ko'p afzalliklari bor. Amaliyotdan so'ng asoratlar minimal darajada kam uchraydi, jarohat chandiqlarsiz bitadi. Bu kelajakda tug'ruqni rejalashtirgan ayollarimiz uchun muhim."
+    },
+    {
+        "id": "baxtiyorovna",
+        "name": "Ochilova Dilfuza Baxtiyorovna",
+        "nameTrans": "spets-5name",
+        "number": "specialists-6",
+        "position": "Bolalar shifokori",
+        "posTrans": "spets-5pos",
+        "image": "../styles/assets/imgs/baxtiyorovna.png",
+        "description": "O'z ish faoliyati bo'yicha 15 yildan ortiq tajribaga egaman. Faoliyatim davomida bolalar salomatligi buzilishi bilan bog'liq turli kasalliklarni ( bolalardagi gastroenterologik , urologik , pulmonologik patalogiyalar , allergik kassaliklar, gelmitozlar )davolab kelmoqdaman va profilaktik koriklar olib boraman, ish faoliyatim davomida doimiy izlanishdaman, integrativ va preventativ tibboyot bo'yicha onlayn kurslarda qatnashib kelaman."
+    },
+    {
+        "id": "kuchkarova",
+        "name": "Kuchkarova Gulnoza Abdusattarovna",
+        "nameTrans": "spets-6name",
+        "number": "specialists-7",
+        "position": "Akusher ginekolog",
+        "posTrans": "spets-5pos",
+        "image": "../styles/assets/imgs/Kuckarova.png",
+        "description": "28 yillik tajribaga ega oliy toifali ginekolog-repraraturolog. Asosiy davolanish yo'nalishi bepushtlik, miyoma, kista, erozziya, hayz siklini buzilishi kabi kasalliklarni davolash. Xalqaro simpoziumlarda va malaka oshirishlarda faol qatnashib kelaman. Hozirgi kunda ayollarimiz orasida ko'p uchraydigan bachadon bo'yni muammolari, bepushtlik, surunkali yallig'lanish kasalliklari, kontrasepsiya masalalari bo'yicha malakali tibbiy yordam ko'rsataman."
+    },
+    {
+        "id": "mirubaydullayeva",
+        "name": "Mirubaydullayeva Muxlisa Xomatovna",
+        "nameTrans": "spets-7name",
+        "number": "specialists-8",
+        "position": "UZD Shifokori tibbiy radiolog",
+        "posTrans": "spets-7pos",
+        "image": "../styles/assets/imgs/mirubaydullayeva.png",
+        "description": "2-toifali shifokor 2000 yildan 2007 yilgacha ToshPMI medped yaniy kasbiy ta'lim va pediatriya yo'nalishi,  2007-2009 yil ordinaturani tibbiy radiologiya bo'yicha tamomladim. 2009- 2010 yil ToshPMI klinikasi Nur diagnostika va travmatologiya ortopedi kafedrasida katta laborant lavozamida, 2010 yildan 2023 gacha IIB JIEBB UZD vrach lavozimida ishladim, hozirgi kunda Medad Med klinikasida ishlab kelaman, umumiy staj 18 yil"
+    },
+    {
+        "id": "botirovna",
+        "name": "To'raqulova Munira Botirovna",
+        "nameTrans": "spets-7name",
+        "number": "specialists-9",
+        "position": "Ginekolog",
+        "posTrans": "spets-8pos",
+        "image": "../styles/assets/imgs/botirovna.JPG",
+        "description": "Ish staji 33 yilga ega 13 yil tug'ruqxonada tug'riq bo'limda, 18 yil oilaviy poliklinikada vrach ginekolog bo'lib hozirgi vaqtda kilnikada ishlab kelmoqdaman. Homiladorlarni nazoratga olaman. Amblator davo ishlari olib boraman ginekologichiskiy. Kichik ginekologik operatsiyalarni qilaman. Bolalar ginekologiyasi bilan ham stajga egaman."
+    },
+    {
+        "id": "oranov",
+        "name": "O'ranov O'tkir Abdusamadovich",
+        "nameTrans": "spets-8name",
+        "number": "specialists-9",
+        "position": "Nevrapotolog",
+        "posTrans": "spets-9pos",
+        "image": "../styles/assets/imgs/otkirov.png",
+        "description": "2-toifali shifokor 2000 yildan 2007 yilgacha ToshPMI medped yaniy kasbiy ta'lim va pediatriya yo'nalishi,  2007-2009 yil ordinaturani tibbiy radiologiya bo'yicha tamomladim. 2009- 2010 yil ToshPMI klinikasi Nur diagnostika va travmatologiya ortopedi kafedrasida katta laborant lavozamida, 2010 yildan 2023 gacha IIB JIEBB UZD vrach lavozimida ishladim, hozirgi kunda Medad Med klinikasida ishlab kelaman, umumiy staj 18 yil"
     }
 ]

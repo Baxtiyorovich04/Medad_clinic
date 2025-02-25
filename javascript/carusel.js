@@ -1,22 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const teamCarousel = document.querySelector(".team-carousel");
+    const track = document.querySelector(".carousel-track");
 
-    if (!teamCarousel) return; // Останавливаем код, если карусель отсутствует
-
-    const teamSlides = document.querySelectorAll(".team-carousel .carousel-slide");
-    let teamIndex = 0;
-
-    function showTeamSlide(index) {
-        teamSlides.forEach((slide, i) => {
-            slide.style.display = i === index ? "block" : "none";
-        });
+    // Проверяем, найден ли элемент
+    if (!track) {
+        console.warn("⚠️ Элемент .carousel-track не найден.");
+        return;
     }
 
-    function nextTeamSlide() {
-        teamIndex = (teamIndex + 1) % teamSlides.length;
-        showTeamSlide(teamIndex);
+    const slides = document.querySelectorAll(".carousel-slide");
+    let index = 0;
+
+    function moveCarousel() {
+        if (!track) return; // Защита от ошибки
+        index = (index + 1) % slides.length;
+        track.style.transform = `translateX(-${index * 100}%)`;
     }
 
-    setInterval(nextTeamSlide, 3000);
-    showTeamSlide(teamIndex);
+    setInterval(moveCarousel, 3000);
 });
