@@ -235,82 +235,98 @@
                 {
                     "name": "Вскрытие абсцесса бартолиновой железы",
                     "name-trans": "bartolin-abstsessini-ochish",
-                    "cost": "50 0000"
+                    "cost": "50 0000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Электроконизация шейки матки",
                     "name-trans": "bachadon-boyni-elektrokonizatsiyasi",
-                    "cost": "110 0000"
+                    "cost": "110 0000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Аблация эндометрия",
                     "name-trans": "endometriya-ablatsiyasi",
-                    "cost": "70 0000"
+                    "cost": "70 0000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вакуум на аспираторе (полипэктомия)",
                     "name-trans": "vakuum-polipektomiya",
-                    "cost": " 1 000 000"
+                    "cost": " 1 000 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Введение (установка) внутриматочной спирали ВМС",
                     "name-trans": "vms-o'rnatish",
-                    "cost": " 100 000"
+                    "cost": " 100 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Взятие мазка",
                     "name-trans": "mazok-olish",
-                    "cost": "35 000"
+                    "cost": "35 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Взятие мазка на ПАП-тест",
                     "name-trans": "pap-test-uchun-mazok-olish",
-                    "cost": "100 000"
+                    "cost": "100 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "ВПЧ-тест",
                     "name-trans": "vpch-test",
-                    "cost": "235 000"
+                    "cost": "235 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вторичная консультация гинеколога",
                     "name-trans": "ikkinchi-ginekolog-konsultatsiyasi",
-                    "cost": "70 000"
+                    "cost": "70 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Лазер (лазерная терапия)",
                     "name-trans": "lazer-terapiya",
-                    "cost": "70 000"
+                    "cost": "70 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Первичная консультация гинеколога",
                     "name-trans": "birinchi-ginekolog-konsultatsiyasi",
-                    "cost": "100 000"
+                    "cost": "100 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Санация влагалища",
                     "name-trans": "vaginal-sanitatsiya",
-                    "cost": "50 000"
+                    "cost": "50 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Сложное удаление внутриматочной спирали ВМС",
                     "name-trans": "murakkab-vms-olib-tashlash",
-                    "cost": "150 000"
+                    "cost": "150 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Удаление внутриматочной спирали ВМС",
                     "name-trans": "vms-olib-tashlash",
-                    "cost": "100 000"
+                    "cost": "100 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Удаление кисты цервикального канала",
                     "name-trans": "servikal-kanal-kistasini-olib-tashlash",
-                    "cost": "700 000"
+                    "cost": "700 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Эксцизия шейки матки",
                     "name-trans": "bachadon-boyni-ekstsiziyasi",
-                    "cost": "850 000"
+                    "cost": "850 000",
+                    "cost-trans": "currency"
                 }
             ]
         },
@@ -339,47 +355,56 @@
                 {
                     "name": "Вскрытие абсцесса 1-категории сложности",
                     "name-trans": "incision-abscess-1-category",
-                    "cost": "300 000"
+                    "cost": "300 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие абсцесса 2-категории сложности",
                     "name-trans": "incision-abscess-2-category",
-                    "cost": "500 000"
+                    "cost": "500 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие абсцесса эпителиального копчикового хода",
                     "name-trans": "incision-epithelial-coccygeal-tract",
-                    "cost": "500 000"
+                    "cost": "500 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие гидраденита",
                     "name-trans": "incision-hidradenitis",
-                    "cost": "200 000"
+                    "cost": "200 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие карбункула",
                     "name-trans": "incision-carbuncle",
-                    "cost": "200 000"
+                    "cost": "200 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие мастита",
                     "name-trans": "incision-mastitis",
-                    "cost": "500 000"
+                    "cost": "500 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие подкожно-подслизистого парапроктита",
                     "name-trans": "incision-subcutaneous-paraproctitis",
-                    "cost": "500 000"
+                    "cost": "500 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие постинъекционного абсцесса",
                     "name-trans": "incision-postinjection-abscess",
-                    "cost": "300 000"
+                    "cost": "300 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие флегмон мягких тканей",
                     "name-trans": "incision-phlegmon-soft-tissues",
-                    "cost": "200 000"
+                    "cost": "200 000",
+                    "cost-trans": "currency"
                 },
                 {
                     "name": "Вскрытие фурункула",
@@ -389,7 +414,8 @@
                 {
                     "name": "Грыжесечение: паховая грыжа",
                     "name-trans": "hernia-surgery-inguinal",
-                    "cost": " 2 000 000"
+                    "cost": " 2 000 000",
+                    "cost-trans": "currency"
                 }
             ]
         }

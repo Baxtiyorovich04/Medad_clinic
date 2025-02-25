@@ -73,16 +73,24 @@ function loadLanguage(lang) {
 }
 
 // Проверяем, существуют ли элементы меню
-if (openMenu && closeMenu && menu) {
-    openMenu.addEventListener("click", () => {
-        menu.style.display = "flex";
-        html.style.overflow = "hidden";
-    });
+if (!window.openMenu) {
+    let openMenu = document.getElementById("menu");
+    let closeMenu = document.getElementById("close");
+    let menu = document.querySelector(".mb-menu");
 
-    closeMenu.addEventListener("click", () => {
-        menu.style.display = "none";
-        html.style.overflow = "auto";
-    });
+    if (openMenu && closeMenu && menu) {
+        openMenu.addEventListener("click", () => {
+            menu.style.display = "flex";
+            document.documentElement.style.overflow = "hidden";
+        });
+
+        closeMenu.addEventListener("click", () => {
+            menu.style.display = "none";
+            document.documentElement.style.overflow = "auto";
+        });
+    }
+
+    window.openMenu = openMenu; // Фиксируем переменную в window, чтобы избежать дублирования
 }
 
 // Карусель (автопрокрутка)

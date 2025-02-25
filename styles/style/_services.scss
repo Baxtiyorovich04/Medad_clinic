@@ -52,11 +52,11 @@
 
             .doctor-info {
                 h3 {
-                    font-size: 16px;
+                    font-size: 18px;
                     margin-bottom: 5px;
 
                     @media (max-width: 900px) {
-                        font-size: 12px;
+                        font-size: 14px;
 
                     }
                 }
@@ -64,6 +64,10 @@
                 .doctor-position {
                     font-size: 14px;
                     color: #777;
+
+                    @media (max-width: 900px) {
+                        font-size: 12px;
+                    }
                 }
             }
         }

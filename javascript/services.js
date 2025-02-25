@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             ? serviceData.prices.map(price => `
                 <div class="price-card">
                     <h4 data-key="${price['name-trans']}"></h4>
-                    <p class="price">${price.cost} сум</p>
+                    <p class="price" data-key="${price['cost-trans']}">${price.cost}  сум</p>
                 </div>
             `).join("")
             : "<p data-key='no-prices'></p>";
