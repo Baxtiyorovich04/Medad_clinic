@@ -34,13 +34,19 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // 🔹 Формируем HTML для списка услуг (Название тоже через `data-key`)
         const servicePrices = serviceData.prices?.length
-            ? serviceData.prices.map(price => `
-                <div class="price-card">
-                    <h4 data-key="${price['name-trans']}"></h4>
-                    <p class="price" >${price.cost}  сум</p>
-                </div>
-            `).join("")
-            : "<p data-key='no-prices'></p>";
+            ? `<div class="services-container">
+              <ul class="services-list">
+                  ${serviceData.prices.map(price => `
+                      <li data-key="${price['name-trans']}">
+                          <span>${price.name} - ${price.cost} <span data-key="currency-sum">сум</span></span>
+                      </li>
+                  `).join("")}
+              </ul>
+           </div>`
+            : "<p data-key='no-prices'>Цены не найдены</p>";
+
+
+
 
         // 🔹 Итоговый HTML
         const serviceHTML = `
@@ -53,7 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 </div>
 
                 <div class="price-section">
-                    <h3 data-key="service-prices"></h3>
+                    <h3 data-key="service-prices" class="service-prices"></h3>
                     <div class="price-list">${servicePrices}</div>
                 </div>
 
