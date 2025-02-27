@@ -153,6 +153,11 @@
         font-weight: 500;
         transition: transform 0.3s ease, color 0.3s ease;
 
+        @media (max-width: 768px) {
+            font-size: 14px;
+
+        }
+
 
         &::before {
             content: "🔹";

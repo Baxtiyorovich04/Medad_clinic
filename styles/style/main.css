@@ -906,6 +906,11 @@ iframe .map-widget-content-view__frame {
   font-weight: 500;
   transition: transform 0.3s ease, color 0.3s ease;
 }
+@media (max-width: 768px) {
+  .services-list li {
+    font-size: 14px;
+  }
+}
 .services-list li::before {
   content: "🔹";
   color: #007bff;
