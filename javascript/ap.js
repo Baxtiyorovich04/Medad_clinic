@@ -10,6 +10,13 @@ window.addEventListener("scroll", function () {
         navbar.classList.toggle("scrolled", window.scrollY > 50);
     }
 });
+window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    preloader.style.opacity = "0"; // плавное исчезновение
+    setTimeout(() => {
+        preloader.style.display = "none"; // скрываем полностью
+    }, 500); // Задержка перед удалением
+});
 
 document.addEventListener("DOMContentLoaded", function () {
     const backToTopButton = document.getElementById("backToTop");
