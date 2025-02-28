@@ -12,10 +12,14 @@ window.addEventListener("scroll", function () {
 });
 window.addEventListener("load", function () {
     const preloader = document.getElementById("preloader");
-    preloader.style.opacity = "0"; // плавное исчезновение
+
+
+    preloader.style.opacity = "0";
     setTimeout(() => {
-        preloader.style.display = "none"; // скрываем полностью
-    }, 500); // Задержка перед удалением
+        preloader.style.display = "none";
+
+
+    }, 500);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -32,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// Проверяем, существует ли кнопка переключения языка
+
 document.addEventListener("DOMContentLoaded", () => {
     let currentLang = localStorage.getItem("language") || "uz";
     loadLanguage(currentLang);
@@ -97,7 +101,7 @@ if (!window.openMenu) {
         });
     }
 
-    window.openMenu = openMenu; // Фиксируем переменную в window, чтобы избежать дублирования
+    window.openMenu = openMenu;
 }
 
 // Карусель (автопрокрутка)

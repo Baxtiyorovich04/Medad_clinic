@@ -628,6 +628,7 @@ iframe .map-widget-content-view__frame {
   }
   .doctor-card .doctor-description {
     font-size: 12px;
+    text-align: justify;
   }
   .specs-back-btn {
     font-size: 16px;
@@ -837,6 +838,31 @@ iframe .map-widget-content-view__frame {
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 120px;
+  color: #0056b3;
+  text-align: left;
+}
+
+.service-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+@media (max-width: 768px) {
+  .service-description {
+    font-size: 18px;
+  }
+}
+
+.service-description-container {
+  height: auto;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .doctor-section {
@@ -846,6 +872,11 @@ iframe .map-widget-content-view__frame {
 .doctor-section h3 {
   font-size: 24px;
   margin-bottom: 15px;
+  text-align: left;
+  color: #0056b3;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 .doctor-section .doctor-list {
   display: flex;

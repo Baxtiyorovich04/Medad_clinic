@@ -5,6 +5,8 @@
             "key": "urology",
             "title": "service-urology",
             "title-trans": "service-urology",
+            "description-trans": "des1",
+            "icon": "fas fa-user-md",
             "doctors": [
                 {
                     "id": "ataniyazov",

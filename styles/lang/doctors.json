@@ -95,5 +95,15 @@
         "posTrans": "spets-9pos",
         "image": "../styles/assets/imgs/otkirov.png",
         "description": "2-toifali shifokor 2000 yildan 2007 yilgacha ToshPMI medped yaniy kasbiy ta'lim va pediatriya yo'nalishi,  2007-2009 yil ordinaturani tibbiy radiologiya bo'yicha tamomladim. 2009- 2010 yil ToshPMI klinikasi Nur diagnostika va travmatologiya ortopedi kafedrasida katta laborant lavozamida, 2010 yildan 2023 gacha IIB JIEBB UZD vrach lavozimida ishladim, hozirgi kunda Medad Med klinikasida ishlab kelaman, umumiy staj 18 yil"
+    },
+    {
+        "id": "toshkenboyeva",
+        "name": "Toshkanboyeva Shaxnoza Shavkatovna",
+        "nameTrans": "spets-9name",
+        "number": "specialists-10",
+        "position": "Vrach laborant",
+        "posTrans": "spets-10pos",
+        "image": "../styles/assets/imgs/otkirov.png",
+        "description": "Toshkent Pediatriya tibbiyot institutini so’ngra Vrachlar Malaksini oshirish institutini Klinik laboratoriya diagnostikasi yo’nalishini bitirganman. Xozirgi kunda laborant vrach lavozimida  ish yuritaman. Faoliyatim davomida klinik tekshiruvlar, bioximik tahlillar, mikroskopik tekshiruvlar olib boraman. Toshkent dermotologik dispanser laboratoriyasida klinik mikroskopik tekshiruvlar bo’yicha o’qib malaka oshirganman."
     }
 ]

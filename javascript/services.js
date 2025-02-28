@@ -17,9 +17,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
 
-        console.log("Загруженные данные:", serviceData); // Проверяем, какие данные приходят
 
-        // 🔹 Формируем HTML для врачей (Теперь имя и позиция в `data-key` для перевода)
+
         const serviceDoctors = serviceData.doctors?.length
             ? serviceData.doctors.map(doc => `
                 <div class="doctor-card">
@@ -32,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             `).join("")
             : "<p data-key='no-doctors'></p>";
 
-        // 🔹 Формируем HTML для списка услуг (Название тоже через `data-key`)
+
         const servicePrices = serviceData.prices?.length
             ? `<div class="services-container">
               <ul class="services-list">
@@ -48,10 +47,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
 
-        // 🔹 Итоговый HTML
+
         const serviceHTML = `
             <div class="container">
                 <h2 class="service-title" data-key="${serviceData['title-trans']}"></h2>
+                <div class="service-description-container mb-container"> 
+                <h4 class="service-description" data-key="${serviceData['description-trans']}"> > </h4>
+
+                   <i class="${serviceData.icon}"></i>
+                </div>
+                
 
                 <div class="doctor-section">
                     <h3 data-key="our-specialists"></h3>

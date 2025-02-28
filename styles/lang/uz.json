@@ -70,6 +70,7 @@
     "vpch-test": "VChP-test",
     "hirurguya": "Jarrohlik",
     "director-name": "Ilxom Raxmatovich Kandaxarov",
+    "des1": "Bu tibbiyot yo‘nalishi bo‘lib, erkaklar va ayollarning siydik-tanosil tizimi kasalliklarini diagnostika qilish, davolash va oldini olish bilan shug‘ullanadi. Bizning klinikamizda urolog konsultatsiyasi, analizlar, diagnostika va jarrohlik amaliyotlari, jumladan, varikotselektomiya, kista olib tashlash, LOD-terapiya va boshqa muolajalar o‘tkaziladi. Biz har bir bemorga zamonaviy usullar orqali individual yondashuvni ta’minlaymiz.",
     "director-pos": "Direktor",
     "more": "Batafsil",
     "incision-abscess-1-category": "1-kategoriya murakkablikdagi abstsessni ochish",
@@ -143,6 +144,8 @@
     "spets-7pos": "UZI shifokori, tibbiy radiolog",
     "spets-8name": "O'ranov O'tkir Abdusamadovich",
     "spets-8pos": "Nevrapotolog",
+    "spets-9name": "Toshkanboyeva Shaxnoza Shavkatovna",
+    "spets-9pos": "Vrach laborant",
     "back": "Ortga",
     "services": "Bizning xizmatlarimiz",
     "specialists-title": "Bizning shifokorlar",
@@ -164,5 +167,6 @@
     "specialists-6": "15 yildan ortiq tajribaga ega shifokor. Bolalardagi gastroenterologik, urologik, pulmonologik kasalliklarni, allergik kasalliklar va gelmintozlarni davolashga ixtisoslashgan. Profilaktik tekshiruvlar o‘tkazadi, integrativ va preventiv tibbiyot bo‘yicha kurslarda qatnashadi.",
     "specialists-7": "Oliy toifali shifokor, 28 yillik tajribaga ega. Malakasini muntazam oshiradi, xalqaro simpozium va kurslarda qatnashadi. Bachadon bo‘yni kasalliklari, bepushtlik, surunkali yallig‘lanish kasalliklari va kontratsepsiya masalalari bo‘yicha ixtisoslashgan. Kolposkopiya va radioto‘lqin jarrohligi Fotek apparatlari bilan ishlaydi.",
     "specialists-8": "2-toifali shifokor. 2000-2007 yillarda ToshPMI da tibbiy pedagogika va pediatriya bo‘yicha tahsil olgan. 2007-2009 yillarda tibbiy radiologiya bo‘yicha ordinatura o‘tagan. 2009-2010 yillarda ToshPMI klinikasining nur diagnostikasi va travmatologiya bo‘limida ishlagan. 2010-2023 yillarda IIV tizimida UZI shifokori bo‘lib ishlagan. Hozirda Medad Med klinikasida faoliyat yuritmoqda. Umumiy ish tajribasi — 18 yil.",
-    "specialists-9": "1994—2001 yillar Toshkent davlat Meditsina  universitetida o'qiganman 2001-2003 yillar nevro-potoligiya muhandisligi bo'yicha klinik ordinaturani  tugatganman  2009 yilda nevro-potoligiya mutaxasisligi bo'yicha o'qib tugatganman. 2014-yilda psixiatriya mutaxasisligini o'qib olganman umumiy tajriba 24 yil"
+    "specialists-9": "1994—2001 yillar Toshkent davlat Meditsina  universitetida o'qiganman 2001-2003 yillar nevro-potoligiya muhandisligi bo'yicha klinik ordinaturani  tugatganman  2009 yilda nevro-potoligiya mutaxasisligi bo'yicha o'qib tugatganman. 2014-yilda psixiatriya mutaxasisligini o'qib olganman umumiy tajriba 24 yil",
+    "specialists-10": "Toshkent Pediatriya tibbiyot institutini so’ngra Vrachlar Malaksini oshirish institutini Klinik laboratoriya diagnostikasi yo’nalishini bitirganman. Xozirgi kunda laborant vrach lavozimida  ish yuritaman. Faoliyatim davomida klinik tekshiruvlar, bioximik tahlillar, mikroskopik tekshiruvlar olib boraman. Toshkent dermotologik dispanser laboratoriyasida klinik mikroskopik tekshiruvlar bo’yicha o’qib malaka oshirganman."
 }
