@@ -363,7 +363,7 @@ iframe .map-widget-content-view__frame {
 }
 .carousel-item img {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   border-radius: 8px;
 }
 
@@ -372,15 +372,8 @@ iframe .map-widget-content-view__frame {
 }
 
 .carousel-item {
-  height: 600px;
   border-radius: 8px;
 }
-@media (max-width: 650px) {
-  .carousel-item {
-    height: 500px;
-  }
-}
-
 .service-card:hover {
   transform: translateY(-5px);
 }
@@ -848,7 +841,10 @@ iframe .map-widget-content-view__frame {
 }
 @media (max-width: 768px) {
   .service-description {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 25px;
   }
 }
 
@@ -860,6 +856,16 @@ iframe .map-widget-content-view__frame {
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+  position: relative;
+  z-index: -2;
+}
+.service-description-container .service-icon {
+  position: absolute;
+  font-size: 100px;
+  color: rgba(0, 87, 179, 0.8470588235);
+  bottom: 10px;
+  right: 10px;
+  z-index: -1;
 }
 
 .doctor-section {
@@ -874,6 +880,7 @@ iframe .map-widget-content-view__frame {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 .doctor-section .doctor-list {
   display: flex;
@@ -891,6 +898,9 @@ iframe .map-widget-content-view__frame {
   flex-direction: column;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+.doctor-section .doctor-list .doctor-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
 .doctor-section .doctor-list .doctor-card .doctor-img {
   width: 200px;
   height: 200px;
@@ -905,6 +915,7 @@ iframe .map-widget-content-view__frame {
 .doctor-section .doctor-list .doctor-card .doctor-info h3 {
   font-size: 18px;
   margin-bottom: 5px;
+  text-align: center;
 }
 @media (max-width: 900px) {
   .doctor-section .doctor-list .doctor-card .doctor-info h3 {
@@ -952,7 +963,7 @@ iframe .map-widget-content-view__frame {
     align-items: center;
   }
   .doctor-card {
-    width: 80%;
+    width: auto;
   }
 }
 .services-container {

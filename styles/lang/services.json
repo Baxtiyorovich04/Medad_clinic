@@ -160,6 +160,8 @@
             "key": "kidurology",
             "title": "kidurology",
             "title-trans": "kidurology",
+            "icon": "fas fa-baby",
+            "description-trans": "kidurology_des",
             "doctors": [],
             "prices": [
                 {

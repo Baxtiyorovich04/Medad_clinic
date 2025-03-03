@@ -50,20 +50,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         const serviceHTML = `
             <div class="container">
-                <h2 class="service-title" data-key="${serviceData['title-trans']}"></h2>
+                <h2 class="service-title" data-aos="zoom-in" data-key="${serviceData['title-trans']}"></h2>
                 <div class="service-description-container mb-container"> 
-                <h4 class="service-description" data-key="${serviceData['description-trans']}"> > </h4>
+                <h4 class="service-description" data-aos="zoom-in" data-key="${serviceData['description-trans']}"> > </h4>
 
-                   <i class="${serviceData.icon}"></i>
+                   <i class="${serviceData.icon} service-icon"></i>
                 </div>
                 
 
-                <div class="doctor-section">
+                <div class="doctor-section" data-aos="zoom-in">
                     <h3 data-key="our-specialists"></h3>
                     <div class="doctor-list">${serviceDoctors}</div>
                 </div>
 
-                <div class="price-section">
+                <div class="price-section" data-aos="zoom-in">
+                
                     <h3 data-key="service-prices" class="service-prices"></h3>
                     <div class="price-list">${servicePrices}</div>
                 </div>
