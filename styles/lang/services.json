@@ -79,6 +79,8 @@
             "key": "massaj",
             "title": "massage",
             "title-trans": "massage",
+            "description-trans": "massaje_des",
+            "icon": "fas fa-spa",
             "doctors": [],
             "prices": [
                 {
@@ -184,6 +186,8 @@
         {
             "key": "gynecology",
             "title": "service-gynecology",
+            "icon": "fas fa-venus",
+            "description-trans": "gynecology_des",
             "title-trans": "service-gynecology",
             "doctors": [
                 {
@@ -298,6 +302,8 @@
             "key": "cardylogy",
             "title": "cardylogy",
             "title-trans": "cardylogy",
+            "icon": "fas fa-heartbeat",
+            "description-trans": "cardiulogy_des",
             "doctors": [
                 {
                     "id": "sharipovna",
@@ -314,6 +320,8 @@
             "key": "hirurguya",
             "title": "hirurguya",
             "title-trans": "hirurguya",
+            "icon": "fas fa-syringe",
+            "description-trans": "hirurgiya_des",
             "doctors": [],
             "prices": [
                 {
@@ -380,6 +388,23 @@
                     "name-trans": "hernia-surgery-inguinal",
                     "cost": " 2 000 000",
                     "cost-trans": "currency"
+                }
+            ]
+        },
+        {
+            "key": "neurology",
+            "title": "Неврология",
+            "description-trans": "neurology_des",
+            "icon": "fas fa-brain",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Первичная консультация невролога",
+                    "cost": "120 000 сум"
+                },
+                {
+                    "name": "Вторичная консультация невролога",
+                    "cost": "90 000 сум"
                 }
             ]
         }
