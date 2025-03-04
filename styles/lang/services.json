@@ -1,6 +1,60 @@
 {
     "services": [
-        {},
+        {
+            "key": "utt",
+            "title": "ultra-sound",
+            "title-trans": "ultra-sound",
+            "ultra_des": "",
+            "ultra_des_trans": "",
+            "icon": "fas fa-user-md",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Допплерография маточно-плацентарного кровотока",
+                    "name-trans": "dopplerography-uteroplacental-blood-flow"
+                },
+                {
+                    "name": "Комплексное УЗИ для женщин",
+                    "name-trans": "comprehensive-ultrasound-women"
+                },
+                {
+                    "name": "Комплексное УЗИ для мужчин",
+                    "name-trans": "comprehensive-ultrasound-men"
+                },
+                {
+                    "name": "Скрининг плода 11-14 неделе беременности",
+                    "name-trans": "fetal-screening-11-14-weeks"
+                },
+                {
+                    "name": "УЗИ беременности I триместр",
+                    "name-trans": "ultrasound-pregnancy-1-trimester"
+                },
+                {
+                    "name": "УЗИ беременности II триместр",
+                    "name-trans": "ultrasound-pregnancy-2-trimester"
+                },
+                {
+                    "name": "УЗИ беременности III триместр",
+                    "name-trans": "ultrasound-pregnancy-3-trimester"
+                },
+                {
+                    "name": "УЗИ беременности 18-21 недели (скрининг)",
+                    "name-trans": "ultrasound-pregnancy-18-21-weeks-screening"
+                },
+                {
+                    "name": "УЗИ беременности I-триместр (трансвагинально)",
+                    "name-trans": "ultrasound-pregnancy-1-trimester-transvaginal"
+                },
+                {
+                    "name": "УЗИ молочной железы",
+                    "name-trans": "ultrasound-breast"
+                },
+                {
+                    "name": "УЗИ щитовидной железы",
+                    "name-trans": "ultrasound-thyroid"
+                }
+            ]
+        },
         {
             "key": "urology",
             "title": "service-urology",
