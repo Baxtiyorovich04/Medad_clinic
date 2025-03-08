@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="container">
                 <h2 class="service-title" data-aos="zoom-in" data-key="${serviceData['title-trans']}"></h2>
                 <div class="service-description-container mb-container"> 
-                <h4 class="service-description" data-aos="zoom-in" data-key="${serviceData['description-trans']}"> > </h4>
+                <h4 class="service-description" data-aos="zoom-in"  data-key="${serviceData['description-trans']}"> > </h4>
 
                    <i class="${serviceData.icon} service-icon"></i>
                 </div>
@@ -75,7 +75,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         document.getElementById("service-box").innerHTML = serviceHTML;
 
-        // 🔹 Вызываем перевод после вставки контента
         loadLanguage(localStorage.getItem("language") || "uz");
 
     } catch (error) {

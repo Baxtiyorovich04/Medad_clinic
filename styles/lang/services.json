@@ -125,6 +125,61 @@
                 {
                     "name": "УЗИ щитовидной железы",
                     "name-trans": "ultrasound-thyroid"
+                },
+                {
+                    "name": "Допплерография маточно-плацентарного кровотока",
+                    "name-trans": "DopplerUteroplacental",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "УЗИ органов мошонки с доплерографией",
+                    "name-trans": "DopplerScrotalUltrasound",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "УЗИ затылочных лимфоузлов",
+                    "name-trans": "uzi-occipital-lymph-nodes",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "УЗИ лимфатических узлов",
+                    "name-trans": "uzi-lymph-nodes",
+                    "cost": "50 000"
+                },
+                {
+                    "name": "УЗИ матки и придатков (трансабдоминально)",
+                    "name-trans": "uzi-uterus-adnexa-transabdominal",
+                    "cost": "70 000"
+                },
+                {
+                    "name": "УЗИ матки и придатков (трансвагинально)",
+                    "name-trans": "uzi-uterus-adnexa-transvaginal",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "УЗИ комплексное органов брюшной полости",
+                    "name-trans": "uzi-abdominal-organs-complex",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "УЗИ печени и желчного пузыря",
+                    "name-trans": "uzi-liver-gallbladder",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "УЗИ скрининг плода с 28 недели",
+                    "name-trans": "uzi-fetal-screening-28-weeks",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "Первичная консультация невролога (невропатолога)",
+                    "name-trans": "neurologist-initial-consultation",
+                    "cost": "150 000"
+                },
+                {
+                    "name": "Вторичная консультация невролога (невропатолога)",
+                    "name-trans": "neurologist-follow-up-consultation",
+                    "cost": "100 000"
                 }
             ]
         },
@@ -190,24 +245,6 @@
                     "name": "Общий массаж для взрослых",
                     "name-trans": "GeneralMassage",
                     "cost": "250 000"
-                }
-            ]
-        },
-        {
-            "key": "dopler",
-            "title": "dopler",
-            "title-trans": "dopler",
-            "doctors": [],
-            "prices": [
-                {
-                    "name": "Допплерография маточно-плацентарного кровотока",
-                    "name-trans": "DopplerUteroplacental",
-                    "cost": "150 000"
-                },
-                {
-                    "name": "УЗИ органов мошонки с доплерографией",
-                    "name-trans": "DopplerScrotalUltrasound",
-                    "cost": "80 000"
                 }
             ]
         },
@@ -453,11 +490,11 @@
             "prices": [
                 {
                     "name": "Первичная консультация невролога",
-                    "cost": "120 000 сум"
+                    "name-trans": "neurologist-initial-consultation"
                 },
                 {
                     "name": "Вторичная консультация невролога",
-                    "cost": "90 000 сум"
+                    "name-trans": "neurologist-follow-up-consultation"
                 }
             ]
         }
