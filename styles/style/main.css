@@ -532,6 +532,62 @@ iframe .map-widget-content-view__frame {
   animation: Scale 2s ease-in-out infinite;
 }
 
+.main-services {
+  margin-top: 20px;
+}
+.main-services .main-services-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "bold";
+  color: #007bff;
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.main-services .main-services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3sease-in-out;
+}
+.main-services .main-services-container:hover img {
+  border: 2px solid #007bff;
+}
+.main-services .main-services-container img {
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.main-services .main-services-container .main-services-text {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  width: 50%;
+}
+.main-services .main-services-container .main-services-text h1 {
+  font-weight: 800;
+  color: #007bff;
+  font-family: "bold";
+}
+.main-services .main-services-container .main-services-text p {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+.main-services .main-services-container .main-services-text li {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
 #doctor-details {
   display: flex;
   justify-content: center;
@@ -897,6 +953,7 @@ iframe .map-widget-content-view__frame {
   margin-top: 30px;
   flex-direction: column;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
 .doctor-section .doctor-list .doctor-card:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
