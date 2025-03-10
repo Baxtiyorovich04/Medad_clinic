@@ -233,6 +233,20 @@
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.3sease-in-out;
 
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            ul {
+
+
+                display: none;
+            }
+
+
+        }
+
         &:hover {
 
             img {
@@ -254,6 +268,11 @@
             justify-content: start;
             flex-direction: column;
             width: 50%;
+
+            @media (max-width: 768px) {
+                width: 100%;
+
+            }
 
             h1 {
                 font-weight: 800;

@@ -556,6 +556,16 @@ iframe .map-widget-content-view__frame {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3sease-in-out;
 }
+@media (max-width: 768px) {
+  .main-services .main-services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-services .main-services-container ul {
+    display: none;
+  }
+}
 .main-services .main-services-container:hover img {
   border: 2px solid #007bff;
 }
@@ -571,6 +581,11 @@ iframe .map-widget-content-view__frame {
   justify-content: start;
   flex-direction: column;
   width: 50%;
+}
+@media (max-width: 768px) {
+  .main-services .main-services-container .main-services-text {
+    width: 100%;
+  }
 }
 .main-services .main-services-container .main-services-text h1 {
   font-weight: 800;
