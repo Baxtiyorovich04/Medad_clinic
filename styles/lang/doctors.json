@@ -105,5 +105,15 @@
         "posTrans": "spets-10pos",
         "image": "../styles/assets/imgs/otkirov.png",
         "description": "Toshkent Pediatriya tibbiyot institutini so’ngra Vrachlar Malaksini oshirish institutini Klinik laboratoriya diagnostikasi yo’nalishini bitirganman. Xozirgi kunda laborant vrach lavozimida  ish yuritaman. Faoliyatim davomida klinik tekshiruvlar, bioximik tahlillar, mikroskopik tekshiruvlar olib boraman. Toshkent dermotologik dispanser laboratoriyasida klinik mikroskopik tekshiruvlar bo’yicha o’qib malaka oshirganman."
+    },
+    {
+        "id": "hudoyberdiyev",
+        "name": "Hudoyberdiyev Abduvoxid",
+        "nameTrans": "spets-10name",
+        "number": "specialists-11",
+        "position": "Urolog-androlog",
+        "posTrans": "spets-10pos",
+        "image": "../styles/assets/imgs/hudoyberdiyev.jpg",
+        "description": "Men urologiya va andrologiya sohasida to‘liq diagnostika va davolash xizmatlarini ko‘rsatadigan malakali mutaxassisman. 2021-yildan beri Shoshilinch tibbiy yordam shahar klinik shifoxonasida ishlayman, shifokorlarni maslahat bilan ta’minlayman, tekshiruvlar o‘tkazaman va zarur hollarda shoshilinch yordam ko‘rsataman. Shuningdek, ko‘p tarmoqli klinika va sanatoriyada ishlash tajribam bor, ambulator qabul, dori-darmon va fizioterapevtik davolash, profilaktik tekshiruvlar bilan shug‘ullanganman. Ultrasonografiya (UTT), stressli vaziyatlarda tanqidiy fikrlash va tibbiy hujjatlarni to‘g‘ri yuritish bo‘yicha ko‘nikmalarga egaman."
     }
 ]
