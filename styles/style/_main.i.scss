@@ -210,6 +210,8 @@
 .main-services {
     margin-top: 20px;
 
+
+
     .main-services-title {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -287,7 +289,7 @@
                 font-family: "bold";
 
                 @media (max-width:768px) {
-                    text-align: left;
+                    text-align: center;
                     width: 100%;
                     font-size: 18px;
 
@@ -317,5 +319,19 @@
 
         }
 
+    }
+
+    #second-main-services-contaier {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 768px) {
+            flex-direction: column-reverse;
+
+        }
+
+
+        margin-top: 40px;
     }
 }

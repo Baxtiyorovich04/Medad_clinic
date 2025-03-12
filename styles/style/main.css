@@ -600,7 +600,7 @@ iframe .map-widget-content-view__frame {
 }
 @media (max-width: 768px) {
   .main-services .main-services-container .main-services-text h1 {
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 18px;
   }
@@ -621,6 +621,17 @@ iframe .map-widget-content-view__frame {
   font-size: 14px;
   color: black;
   font-weight: 500;
+}
+.main-services #second-main-services-contaier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .main-services #second-main-services-contaier {
+    flex-direction: column-reverse;
+  }
 }
 
 #doctor-details {
