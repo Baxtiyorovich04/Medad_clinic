@@ -1471,7 +1471,6 @@ nav .Links button:hover {
     display: block;
   }
   .mb-container {
-    max-width: 600px;
     margin: 0 auto;
     overflow-x: hidden;
   }
