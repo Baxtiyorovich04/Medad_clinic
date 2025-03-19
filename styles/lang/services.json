@@ -14,6 +14,14 @@
                     "position": "spets-1pos",
                     "positionTrans": "spets-1pos",
                     "image": "../styles/assets/imgs/atnayazov.png"
+                },
+                {
+                    "id": "hudoyberdiyev",
+                    "name": "spets-10name",
+                    "name-trans": "spets-10name",
+                    "position": "spets-10pos",
+                    "positionTrans": "spets-10pos",
+                    "image": "../styles/assets/imgs/hudoyberdiyev.jpg"
                 }
             ],
             "prices": [

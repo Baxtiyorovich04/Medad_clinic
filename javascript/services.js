@@ -29,19 +29,24 @@ document.addEventListener("DOMContentLoaded", async () => {
                     </div>
                 </div>
             `).join("")
-            : "<p data-key='no-doctors'></p>";
+            : `<div class="no-doctor box">
+    <i class="fa-solid fa-user-doctor service-icon"></i>
+    <h1>Hozircha shifokor ma'lumoti mavjud emas</h1>
+</div>
+            
+            `;
 
 
         const servicePrices = serviceData.prices?.length
             ? `<div class="services-container">
-              <ul class="services-list">
-                  ${serviceData.prices.map(price => `
-                      <li data-key="${price['name-trans']}">
-                          <span>${price.name} - ${price.cost} <span data-key="currency-sum">сум</span></span>
-                      </li>
-                  `).join("")}
-              </ul>
-           </div>`
+    <ul class="services-list">
+        ${serviceData.prices.map(price => `
+            <li data-key="${price['name-trans']}">
+                <span>${price.name} - ${price.cost} <span data-key="currency-sum">сум</span></span>
+            </li>
+        `).join("")}
+    </ul>
+</div>`
             : "<p data-key='no-prices'>Цены не найдены</p>";
 
 
