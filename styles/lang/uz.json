@@ -106,7 +106,7 @@
     "hirurguya": "Jarrohlik",
     "director-name": "Ilxom Raxmatovich Kandaxarov",
     "des1": "Bu tibbiyot yo‘nalishi bo‘lib, erkaklar va ayollarning siydik-tanosil tizimi kasalliklarini diagnostika qilish, davolash va oldini olish bilan shug‘ullanadi. Bizning klinikamizda urolog konsultatsiyasi, analizlar, diagnostika va jarrohlik amaliyotlari, jumladan, varikotselektomiya, kista olib tashlash, LOD-terapiya va boshqa muolajalar o‘tkaziladi. Biz har bir bemorga zamonaviy usullar orqali individual yondashuvni ta’minlaymiz.",
-    "director-pos": "Direktor",
+    "director-pos": "Direktor-Urolog",
     "more": "Batafsil",
     "incision-abscess-1-category": "1-kategoriya murakkablikdagi abstsessni ochish",
     "incision-abscess-2-category": "2-kategoriya murakkablikdagi abstsessni ochish",
@@ -183,6 +183,8 @@
     "spets-9pos": "Vrach laborant",
     "spets-10name": "Xudoyberdiyev  Abduvohid",
     "spets-10pos": "Urolog-androlog",
+    "spets-11name": "To'raqulova Munira Botirovna",
+    "spets-11pos": "Ginekolog Estatik ginekolog",
     "back": "Ortga",
     "services": "Bizning xizmatlarimiz",
     "specialists-title": "Bizning shifokorlar",
@@ -206,5 +208,6 @@
     "specialists-8": "2-toifali shifokor. 2000-2007 yillarda ToshPMI da tibbiy pedagogika va pediatriya bo‘yicha tahsil olgan. 2007-2009 yillarda tibbiy radiologiya bo‘yicha ordinatura o‘tagan. 2009-2010 yillarda ToshPMI klinikasining nur diagnostikasi va travmatologiya bo‘limida ishlagan. 2010-2023 yillarda IIV tizimida UZI shifokori bo‘lib ishlagan. Hozirda Medad Med klinikasida faoliyat yuritmoqda. Umumiy ish tajribasi — 18 yil.",
     "specialists-9": "1994—2001 yillar Toshkent davlat Meditsina  universitetida o'qiganman 2001-2003 yillar nevro-potoligiya muhandisligi bo'yicha klinik ordinaturani  tugatganman  2009 yilda nevro-potoligiya mutaxasisligi bo'yicha o'qib tugatganman. 2014-yilda psixiatriya mutaxasisligini o'qib olganman umumiy tajriba 24 yil",
     "specialists-10": "Toshkent Pediatriya tibbiyot institutini so’ngra Vrachlar Malaksini oshirish institutini Klinik laboratoriya diagnostikasi yo’nalishini bitirganman. Xozirgi kunda laborant vrach lavozimida  ish yuritaman. Faoliyatim davomida klinik tekshiruvlar, bioximik tahlillar, mikroskopik tekshiruvlar olib boraman. Toshkent dermotologik dispanser laboratoriyasida klinik mikroskopik tekshiruvlar bo’yicha o’qib malaka oshirganman.",
-    "specialists-11": "Men urologiya va andrologiya sohasida to‘liq diagnostika va davolash xizmatlarini ko‘rsatadigan malakali mutaxassisman. 2021-yildan beri Shoshilinch tibbiy yordam shahar klinik shifoxonasida ishlayman, shifokorlarni maslahat bilan ta’minlayman, tekshiruvlar o‘tkazaman va zarur hollarda shoshilinch yordam ko‘rsataman. Shuningdek, ko‘p tarmoqli klinika va sanatoriyada ishlash tajribam bor, ambulator qabul, dori-darmon va fizioterapevtik davolash, profilaktik tekshiruvlar bilan shug‘ullanganman. Ultrasonografiya (UTT), stressli vaziyatlarda tanqidiy fikrlash va tibbiy hujjatlarni to‘g‘ri yuritish bo‘yicha ko‘nikmalarga egaman."
+    "specialists-11": "Men urologiya va andrologiya sohasida to‘liq diagnostika va davolash xizmatlarini ko‘rsatadigan malakali mutaxassisman. 2021-yildan beri Shoshilinch tibbiy yordam shahar klinik shifoxonasida ishlayman, shifokorlarni maslahat bilan ta’minlayman, tekshiruvlar o‘tkazaman va zarur hollarda shoshilinch yordam ko‘rsataman. Shuningdek, ko‘p tarmoqli klinika va sanatoriyada ishlash tajribam bor, ambulator qabul, dori-darmon va fizioterapevtik davolash, profilaktik tekshiruvlar bilan shug‘ullanganman. Ultrasonografiya (UTT), stressli vaziyatlarda tanqidiy fikrlash va tibbiy hujjatlarni to‘g‘ri yuritish bo‘yicha ko‘nikmalarga egaman.",
+    "specialists-12": "Ish staji 33 yilga ega 13 yil tug'ruqxonada tug'riq bo'limda, 18 yil oilaviy poliklinikada vrach ginekolog bo'lib hozirgi vaqtda kilnikada ishlab kelmoqdaman. Homiladorlarni nazoratga olaman. Amblator davo ishlari olib boraman ginekologichiskiy. Kichik ginekologik operatsiyalarni qilaman. Bolalar ginekologiyasi bilan ham stajga egaman."
 }

@@ -2,7 +2,7 @@
     {
         "id": "kandaxarov",
         "name": "Ilxom Raxmatovich Kandaxarov",
-        "position": "Direktor",
+        "position": "Direktor-Urolog",
         "image": "../styles/assets/imgs/direktor.png",
         "description": "To'liq ma'lumot bu yerda..."
     },
@@ -79,10 +79,10 @@
     {
         "id": "botirovna",
         "name": "To'raqulova Munira Botirovna",
-        "nameTrans": "spets-7name",
+        "nameTrans": "spets-11name",
         "number": "specialists-9",
         "position": "Ginekolog",
-        "posTrans": "spets-8pos",
+        "posTrans": "spets-11pos",
         "image": "../styles/assets/imgs/botirovna.JPG",
         "description": "Ish staji 33 yilga ega 13 yil tug'ruqxonada tug'riq bo'limda, 18 yil oilaviy poliklinikada vrach ginekolog bo'lib hozirgi vaqtda kilnikada ishlab kelmoqdaman. Homiladorlarni nazoratga olaman. Amblator davo ishlari olib boraman ginekologichiskiy. Kichik ginekologik operatsiyalarni qilaman. Bolalar ginekologiyasi bilan ham stajga egaman."
     },

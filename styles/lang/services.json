@@ -22,6 +22,14 @@
                     "position": "spets-10pos",
                     "positionTrans": "spets-10pos",
                     "image": "../styles/assets/imgs/hudoyberdiyev.jpg"
+                },
+                {
+                    "id": "raxmatovich",
+                    "name": "director-name",
+                    "name-trans": "director-name",
+                    "position": "director-pos",
+                    "positionTrans": "director-pos",
+                    "image": "../styles/assets/imgs/direktor.png"
                 }
             ],
             "prices": [
@@ -88,7 +96,16 @@
             "title-trans": "ultrasound",
             "description-trans": "ultra_des_trans",
             "icon": "fas fa-user-md",
-            "doctors": [],
+            "doctors": [
+                {
+                    "id": "mirubaydullayeva",
+                    "name": "spets-7name",
+                    "name-trans": "spets-7name",
+                    "position": "spets-7pos",
+                    "positionTrans": "spets-7pos",
+                    "image": "../styles/assets/imgs/botirovna.JPG"
+                }
+            ],
             "prices": [
                 {
                     "name": "Допплерография маточно-плацентарного кровотока",
