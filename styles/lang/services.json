@@ -429,7 +429,24 @@
                     "image": "../styles/assets/imgs/Kurbanbayeva.png"
                 }
             ],
-            "prices": []
+            "prices": [
+                {
+                    "name": "Консультация",
+                    "name-trans": "cg-checking"
+                },
+                {
+                    "name":"ЭКГ с расшифровкой",
+                    "name-trans": "ekg-s-rasxifrovkoy"
+                },
+                {
+                    "name":"ЭКГ без расшифровки",
+                    "name-trans": "ekg-bez-rasxifrovki"
+                },
+                {
+                    "name":"Повторный осмотр",
+                    "name-trans": "povtornyy-osmotr"
+                }
+            ]
         },
         {
             "key": "hirurguya",
