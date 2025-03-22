@@ -537,6 +537,10 @@
                 {
                     "name": "Вторичная консультация невролога",
                     "name-trans": "neurologist-follow-up-consultation"
+                },
+                {
+                    "name": "УЗИ нейросонография",
+                    "name-trans": "uzi-neurosonography"
                 }
             ]
         },
@@ -615,6 +619,43 @@
                 {
                     "name": "IVF",
                     "name-trans": "ivf"
+                }
+            ]
+        },
+        {
+            "key": "terapiyakid",
+            "title": "terapiyakid",
+            "description-trans": "terapiyakid_des",
+            "icon": "fas fa-child",
+            "doctors": [],
+            "prices": [
+                {
+                    "name": "Амплипульс",
+                    "name-trans": "amplipuls"
+                },
+                {
+                    "name": "Дарсонваль",
+                    "name-trans": "darsonval"
+                },
+                {
+                    "name": "Лазер (лазерная терапия)",
+                    "name-trans": "lazer-terapiya"
+                },
+                {
+                    "name": "Магнитотерапия",
+                    "name-trans": "magnitoterapiya"
+                },
+                {
+                    "name": "УЗТ (Ультразвуковая терапия)",
+                    "name-trans": "uzt-ultrazvuk-terapiya"
+                },
+                {
+                    "name": "Фонофорез",
+                    "name-trans": "fonoforez"
+                },
+                {
+                    "name": "Электрофорез",
+                    "name-trans": "elektroforez"
                 }
             ]
         }
