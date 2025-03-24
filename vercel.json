@@ -13,12 +13,24 @@
             "destination": "/pages/contacts.html"
         },
         {
-            "source": "/service/:service",
+            "source": "/services/:service",
             "destination": "/pages/service.html?service=:service"
         },
         {
             "source": "/doctors/:id",
             "destination": "/pages/doctors.html?id=:id"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/pages/(.*)",
+            "destination": "/$1",
+            "permanent": true
+        },
+        {
+            "source": "/(.*).html",
+            "destination": "/$1",
+            "permanent": true
         }
     ]
 }
