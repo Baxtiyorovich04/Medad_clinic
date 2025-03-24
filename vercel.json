@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/doctors/:id",
-            "destination": "/pages/doctors.html?id=:id"
+            "source": "/about",
+            "destination": "/pages/about.html"
         },
         {
             "source": "/specialists",
@@ -13,8 +13,12 @@
             "destination": "/pages/contacts.html"
         },
         {
-            "source": "/about",
-            "destination": "/pages/about.html"
+            "source": "/service/:service",
+            "destination": "/pages/service.html?service=:service"
+        },
+        {
+            "source": "/doctors/:id",
+            "destination": "/pages/doctors.html?id=:id"
         }
     ]
 }
