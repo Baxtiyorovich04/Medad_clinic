@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/service/:category",
+            "destination": "/pages/service.html?service=:category"
+        }
+    ]
+}
