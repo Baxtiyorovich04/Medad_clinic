@@ -83,7 +83,7 @@ function loadLanguage(lang) {
         .catch(error => console.error("Ошибка загрузки перевода:", error));
 }
 
-// Проверяем, существуют ли элементы меню
+
 if (!window.openMenu) {
     let openMenu = document.getElementById("menu");
     let closeMenu = document.getElementById("close");
@@ -104,7 +104,7 @@ if (!window.openMenu) {
     window.openMenu = openMenu;
 }
 
-// Карусель (автопрокрутка)
+
 document.addEventListener("DOMContentLoaded", function () {
     const track = document.querySelector(".carousel-track");
     const slides = document.querySelectorAll(".carousel-slide");
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// Загрузка информации о враче (если есть ID в URL)
+
 document.addEventListener("DOMContentLoaded", async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const doctorId = urlParams.get("id");
