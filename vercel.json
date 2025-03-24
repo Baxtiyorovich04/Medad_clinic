@@ -1,5 +1,6 @@
 {
     "trailingSlash": false,
+    "cleanUrls": true,
     "rewrites": [
         {
             "source": "/about",
@@ -20,38 +21,6 @@
         {
             "source": "/doctors/:id",
             "destination": "/pages/doctors.html?id=:id"
-        }
-    ],
-    "redirects": [
-        {
-            "source": "/index.html",
-            "destination": "/",
-            "permanent": true
-        },
-        {
-            "source": "/specialists.html",
-            "destination": "/specialists",
-            "permanent": true
-        },
-        {
-            "source": "/contacts.html",
-            "destination": "/contacts",
-            "permanent": true
-        },
-        {
-            "source": "/about.html",
-            "destination": "/about",
-            "permanent": true
-        },
-        {
-            "source": "/service.html",
-            "destination": "/service",
-            "permanent": true
-        },
-        {
-            "source": "/doctors.html",
-            "destination": "/doctors",
-            "permanent": true
         }
     ]
 }
