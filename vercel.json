@@ -23,6 +23,11 @@
     ],
     "redirects": [
         {
+            "source": "/pages/(.*)",
+            "destination": "/$1",
+            "permanent": true
+        },
+        {
             "source": "/(.*).html",
             "destination": "/$1",
             "permanent": true
