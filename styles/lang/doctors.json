@@ -1,10 +1,13 @@
 [
     {
         "id": "kandaxarov",
+        "number": "direktor",
         "name": "Ilxom Raxmatovich Kandaxarov",
-        "position": "Direktor-Urolog",
+        "nameTrans": "director-name",
+        "position": "Urolog. Androlog. UTT shifokori.",
+        "posTrans": "direktor-pos",
         "image": "../styles/assets/imgs/direktor.png",
-        "description": "To'liq ma'lumot bu yerda..."
+        "description": "1994 yil ToshMI davolash fakultetini tugallagan. 1996-1998 yillar urologiya bo‘yicha klinik ordinatura kursini tamomlagan. 2008 yilda UTT tekshiruvi bo‘yicha sertifikat olgan. 2019 yilda Andrologiya o‘quv kursini tamomlagan. 2024 yilda Sechenov nomidagi 1-Moskva Tibbiyot Instituti Andrologiya kafedrasida \"Reproduktiv salomatlikning andrologik aspektlari\" bo‘yicha malaka oshirgan. Oliy toifali shifokor. Xalqaro va mahalliy konferensiyalarning doimiy ishtirokchisi."
     },
     {
         "id": "ataniyazov",
