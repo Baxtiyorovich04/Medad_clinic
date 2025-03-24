@@ -29,8 +29,28 @@
             "permanent": true
         },
         {
-            "source": "/pages/:path.html",
-            "destination": "/:path",
+            "source": "/specialists.html",
+            "destination": "/specialists",
+            "permanent": true
+        },
+        {
+            "source": "/contacts.html",
+            "destination": "/contacts",
+            "permanent": true
+        },
+        {
+            "source": "/about.html",
+            "destination": "/about",
+            "permanent": true
+        },
+        {
+            "source": "/service.html",
+            "destination": "/service",
+            "permanent": true
+        },
+        {
+            "source": "/doctors.html",
+            "destination": "/doctors",
             "permanent": true
         }
     ]
