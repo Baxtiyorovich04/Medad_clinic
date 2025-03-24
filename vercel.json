@@ -19,6 +19,18 @@
         {
             "source": "/doctors/:id",
             "destination": "/pages/doctors.html?id=:id"
+        },
+        {
+            "source": "/specialists",
+            "destination": "/pages/specialists.html"
+        },
+        {
+            "source": "/contacts",
+            "destination": "/pages/contacts.html"
+        },
+        {
+            "source": "/about",
+            "destination": "/pages/about.html"
         }
     ]
 }
