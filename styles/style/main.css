@@ -1160,7 +1160,7 @@ iframe .map-widget-content-view__frame {
 @media (max-width: 900px) {
   .doctor-section .doctor-list .doctor-card .doctor-img {
     width: 160px;
-    height: 160px;
+    height: 200px;
   }
 }
 .doctor-section .doctor-list .doctor-card .doctor-info h3 {
