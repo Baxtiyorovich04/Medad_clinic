@@ -118,6 +118,7 @@
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         position: relative;
         overflow: hidden;
+
     }
 
     .service-card:hover {
@@ -160,6 +161,10 @@
     }
 
 
+}
+
+.service-card {
+    background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
 }
 
 .service-card .btn {
@@ -286,6 +291,7 @@
         padding: 30px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.3sease-in-out;
+        background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
 
         @media (max-width: 768px) {
             display: flex;

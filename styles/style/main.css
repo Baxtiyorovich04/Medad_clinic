@@ -532,6 +532,10 @@ iframe .map-widget-content-view__frame {
   transition: background 0.3s ease-in-out;
 }
 
+.service-card {
+  background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
+}
+
 .service-card .btn {
   display: inline-flex;
   align-items: center;
@@ -636,6 +640,7 @@ iframe .map-widget-content-view__frame {
   padding: 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3sease-in-out;
+  background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
 }
 @media (max-width: 768px) {
   .main-services .main-services-container {
@@ -813,6 +818,7 @@ iframe .map-widget-content-view__frame {
 
 .doctor-description {
   color: #555;
+  margin-bottom: 5px;
 }
 
 .specs-back-btn {
@@ -827,7 +833,7 @@ iframe .map-widget-content-view__frame {
   color: #ffffff;
   margin-top: 30px;
   width: 60px;
-  height: 30px;
+  height: 25px;
   border-radius: 5px;
 }
 .specs-back-btn:hover {
@@ -859,7 +865,8 @@ iframe .map-widget-content-view__frame {
   }
   .doctor-img {
     width: 200px;
-    height: 200px;
+    margin-top: 10px;
+    height: auto;
   }
 }
 .about-section .container {
