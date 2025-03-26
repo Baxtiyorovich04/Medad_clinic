@@ -73,8 +73,12 @@ document.addEventListener("DOMContentLoaded", async () => {
                     <h3 data-key="service-prices" class="service-prices"></h3>
                     <div class="price-list">${servicePrices}</div>
                 </div>
+                <div class="service-btn-container">
+ <a href="../index.html" class="btn back-btn" data-key="back"></a>
+                  <a href="tel:+998 95 790 0303" data-key="booking" class="booking">Qabulga yozilish</a>
+                </div>
 
-                <a href="../index.html" class="btn back-btn" data-key="back"></a>
+               
             </div>
         `;
 
