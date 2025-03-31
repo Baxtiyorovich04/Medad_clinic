@@ -729,6 +729,7 @@ iframe .map-widget-content-view__frame {
   background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
   border-radius: 20px;
   box-shadow: 0 15px 20px rgba(12, 12, 12, 0.1);
+  margin-top: 80px;
 }
 .welcome img {
   width: 50%;
@@ -737,6 +738,11 @@ iframe .map-widget-content-view__frame {
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.welcome img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 .welcome .welcome-text {
   max-width: 500px;
@@ -771,6 +777,60 @@ iframe .map-widget-content-view__frame {
     width: 80%;
   }
 }
+swiper-container {
+  width: 820px;
+  height: 620px;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-carusel-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .custom-carusel-box {
+    flex-direction: column;
+  }
+}
+
+.widgets .about-us-widget {
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
+  border-radius: 20px;
+  box-shadow: 0 15px 20px rgba(12, 12, 12, 0.1);
+  background-position: center center;
+  border: 1px solid #007bff;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.widgets .about-us-widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 #doctor-details {
   display: flex;
   justify-content: center;
@@ -1367,7 +1427,7 @@ iframe .map-widget-content-view__frame {
 }
 
 body {
-  background-color: rgba(209, 236, 255, 0.7215686275);
+  background-color: rgba(192, 219, 238, 0.7215686275);
 }
 
 .container {
