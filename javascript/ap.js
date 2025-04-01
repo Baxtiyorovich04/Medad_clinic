@@ -142,18 +142,19 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         document.getElementById("doctor-details").innerHTML = `
-            <div class="doctor-card">
-                <img src="${doctor.image}" alt="${doctor.name}" class="doctor-img">
-                <div class="doctor-info">
-                    <h2 data-key="${doctor.nameTrans}">${doctor.name}</h2>
-                    <p class="doctor-position" data-key="${doctor.posTrans}">${doctor.position}</p>
-                    <p class="doctor-description" data-key="${doctor.number}">${doctor.description}</p>
-                    <div class="specs-back-btn-sec">
-                        <a href="./specialists.html" class="specs-back-btn" data-key="back">Ortga</a>
-                    </div>
+        <div class="doctor-card">
+            <img src="${doctor.image}" alt="${doctor.name}" class="doctor-img">
+            <div class="doctor-info">
+                <h2 data-key="${doctor.nameTrans}">${doctor.name}</h2>
+                <p class="doctor-position" data-key="${doctor.posTrans}">${doctor.position}</p>
+                <p class="doctor-description" data-key="${doctor.number}">${doctor.description}</p>
+                <div class="doctor-buttons">
+                    <a href="tel:+998 95 790 0303" class="appointment-btn" data-key="appointment">Qabulga yozilish</a>
+                    <a href="./specialists.html" class="specs-back-btn" data-key="back">Ortga</a>
                 </div>
             </div>
-        `;
+        </div>
+    `; 
     } catch (error) {
         console.error("Ошибка загрузки данных о враче:", error);
     }

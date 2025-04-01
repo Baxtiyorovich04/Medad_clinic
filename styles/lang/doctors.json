@@ -6,7 +6,7 @@
         "nameTrans": "director-name",
         "position": "Urolog. Androlog. UTT shifokori.",
         "posTrans": "direktor-pos",
-        "image": "../styles/assets/imgs/direktor.png",
+        "image": "../styles/assets/imgs/direktor.webp",
         "description": "1994 yil ToshMI davolash fakultetini tugallagan. 1996-1998 yillar urologiya bo‘yicha klinik ordinatura kursini tamomlagan. 2008 yilda UTT tekshiruvi bo‘yicha sertifikat olgan. 2019 yilda Andrologiya o‘quv kursini tamomlagan. 2024 yilda Sechenov nomidagi 1-Moskva Tibbiyot Instituti Andrologiya kafedrasida \"Reproduktiv salomatlikning andrologik aspektlari\" bo‘yicha malaka oshirgan. Oliy toifali shifokor. Xalqaro va mahalliy konferensiyalarning doimiy ishtirokchisi."
     },
     {
@@ -16,8 +16,8 @@
         "nameTrans": "spets-1name",
         "position": "Urolog-androlog, onkourolog, endourolog, androlog-seksolog.",
         "posTrans": "spets-1pos",
-        "image": "../styles/assets/imgs/atnayazov.png",
-        "description": "2-toifali urolog-androlog, onkourolog, endourolog, androlog-seksolog. ToshIUV Andrologiya va seksologiya kafedrasi assistenti. 2000-yilda ToshGo'sMI-1ni tamomlagan. 2001-2005-yillarda Chegara bilmas shifokorlar. MSF-Holland xalqaro tashkilotida katta ilmiy-tadqiqotchi lavozimida ishlagan. 2006-2008-yillarda Germaniyada Kyoln universiteti klinikasida kardiojarroh yordamchisi Osnabryuk shahar klinikasida urologiya va bolalar urologiyasi bo‘yicha operatsiya yordamchisi sifatida faoliyat yuritgan. 2007-yilda Germaniyaning \"Biolitek\" markazida prostata adenomasining fotoselektiv lazer bug‘lanishi bo‘yicha kurslarni tamomlagan. 2009-yilda Avstriyaning WEILL CORNELL tibbiyot kollejida endourologiya bo‘yicha malaka oshirgan. 2010-yilda Onkologiya mutaxassisligi bo‘yicha ultratovush diagnostikasi kursini yakunlagan. 2011-yilda \"Urologiya va nefrologiya\" mutaxassisligi bo‘yicha tahsil olgan."
+        "image": "../styles/assets/imgs/atnayazov.webp",
+        "description": "2-toifali urolog-androlog, onkourolog, endourolog, androlog-seksolog. ToshTIV andrologiya va seksologiya kafedrasi assistenti. 2000 yilda 1-ToshDavTI ni tamomlagan. 2006-2008 yillarda Germaniyada kardiokirurg yordamchisi va bolalar urologiyasi bo‘yicha assistent bo‘lib ishlagan. 2007 yilda Germaniyada prostata adenomasini lazer bilan davolash bo‘yicha kurs o‘tgan. 2009 yilda Avstriyada endourologiya bo‘yicha malaka oshirgan. Onkologik kasalliklarni ultratovush diagnostikasi bo‘yicha ham tajribaga ega."
     },
     {
         "id": "raximova",
@@ -26,7 +26,7 @@
         "number": "specialists-2",
         "position": "Oliy toifali pediatr va bolalar nevrologi bo'lib (nevropatolog)",
         "posTrans": "spets-2pos",
-        "image": "../styles/assets/imgs/expert-one.png",
+        "image": "../styles/assets/imgs/expert-one.webp",
         "description": "Oliy toifali pediatr va bolalar nevrologi bo'lib (nevropatolog) Medad Med klinikasida ishlayman. Shu sohada 35 yildan beri faoliyat yuritaman. Shu davr ichida muntazam ravishda kasbimga bog'liq pediatriya va bolalar nevrologiyasi bo'yicha o'tkaziladigan ilmiy amaliy konferensiyalar va syezdlarda qatnashib kelaman. Bolalarda uchraydigan o'tkir va surunkali kasalliklarni tashxislash va davolash, shu jumladan bolalarda uchraydigan asab kasalliklarini tashxislash va davolash bilan shug'ullanaman."
     },
     {
@@ -36,7 +36,7 @@
         "number": "specialists-3",
         "position": "Kardiolog",
         "posTrans": "spets-3pos",
-        "image": "../styles/assets/imgs/Kurbanbayeva.png",
+        "image": "../styles/assets/imgs/Kurbanbayeva.webp",
         "description": "Kardiolog 1967 yil ToshMI fakultetini tamomlagan. Ikkinchi davolash Kardiologiya ilmiy tekshirish institutining aritmologiya bo'limida malaka va tajriba oshirgan. 30 yillik ish faoliyatida juda ko'p bemorlarga: yurak ishemik kasalligi, gipertoniya kasalligi, yurak ritmini buzilishi, yurak yetishmovchiligi va ko'pgina boshqa bemorlarga malakali yerdam berib kelmoqda. Oxirgi 19 yildan beri yuqori toifali shifokor bo'lib, xalq tabobati, ya'ni zuluklar bilan davolash bilan ham yuqori darajada shug'ullanib kelmoqda. O'zining xushmuomalaligi va bilimi bilan juda ko'p bemorlarning mehrini qozongan. Barcha xalqaro kardiologik va terapevtik konferensiyalarda va syezdlarda faol ishtirok etib kelmoqda, o'z ish faoliyatida barcha zamonaviy uslublardan foydalanadi."
     },
     {
@@ -46,7 +46,7 @@
         "nameTrans": "spets-4name",
         "position": "Ginekolog-repraraturolog",
         "posTrans": "spets-4pos",
-        "image": "../styles/assets/imgs/ganjiyeva.png",
+        "image": "../styles/assets/imgs/ganjiyeva.webp",
         "description": "Oliy toifali shifokorman. Shu sohada 28 yildan beri faoliyat yuritaman. O'z sohamda doimiy ravishda malakamni oshirishga harakat qilaman. Xalqaro simpoziumlarda, respublikamizdagi malaka oshirish kurslarida aktiv qatnashaman. Hozirgi kunda ayollarimiz orasida ko'p uchraydigan bachadon bo'yni muammolari, bepushtlik, surunkali yallig'lanish kasalliklari, kontrasepsiya masalalari bo'yicha malakali tibbiy yordam ko'rsataman. Klinikamizda kolposkop va radioto'lqinli Fotek apparatlarida ishlayman. Bachadon bo'yni muammolarida xirurgik amaliyotlarni Fotek apparatida o'tkazaman. Bu apparatning juda ko'p afzalliklari bor. Amaliyotdan so'ng asoratlar minimal darajada kam uchraydi, jarohat chandiqlarsiz bitadi. Bu kelajakda tug'ruqni rejalashtirgan ayollarimiz uchun muhim."
     },
     {
@@ -56,7 +56,7 @@
         "number": "specialists-6",
         "position": "Bolalar shifokori",
         "posTrans": "spets-5pos",
-        "image": "../styles/assets/imgs/baxtiyorovna.png",
+        "image": "../styles/assets/imgs/baxtiyorovna.webp",
         "description": "O'z ish faoliyati bo'yicha 15 yildan ortiq tajribaga egaman. Faoliyatim davomida bolalar salomatligi buzilishi bilan bog'liq turli kasalliklarni ( bolalardagi gastroenterologik , urologik , pulmonologik patalogiyalar , allergik kassaliklar, gelmitozlar )davolab kelmoqdaman va profilaktik koriklar olib boraman, ish faoliyatim davomida doimiy izlanishdaman, integrativ va preventativ tibboyot bo'yicha onlayn kurslarda qatnashib kelaman."
     },
     {
@@ -66,7 +66,7 @@
         "number": "specialists-7",
         "position": "Akusher ginekolog",
         "posTrans": "spets-5pos",
-        "image": "../styles/assets/imgs/Kuckarova.png",
+        "image": "../styles/assets/imgs/Kuckarova.webp",
         "description": "28 yillik tajribaga ega oliy toifali ginekolog-repraraturolog. Asosiy davolanish yo'nalishi bepushtlik, miyoma, kista, erozziya, hayz siklini buzilishi kabi kasalliklarni davolash. Xalqaro simpoziumlarda va malaka oshirishlarda faol qatnashib kelaman. Hozirgi kunda ayollarimiz orasida ko'p uchraydigan bachadon bo'yni muammolari, bepushtlik, surunkali yallig'lanish kasalliklari, kontrasepsiya masalalari bo'yicha malakali tibbiy yordam ko'rsataman."
     },
     {
@@ -76,7 +76,7 @@
         "number": "specialists-8",
         "position": "UZD Shifokori tibbiy radiolog",
         "posTrans": "spets-7pos",
-        "image": "../styles/assets/imgs/mirubaydullayeva.png",
+        "image": "../styles/assets/imgs/mirubaydullayeva.webp",
         "description": "2-toifali shifokor 2000 yildan 2007 yilgacha ToshPMI medped yaniy kasbiy ta'lim va pediatriya yo'nalishi,  2007-2009 yil ordinaturani tibbiy radiologiya bo'yicha tamomladim. 2009- 2010 yil ToshPMI klinikasi Nur diagnostika va travmatologiya ortopedi kafedrasida katta laborant lavozamida, 2010 yildan 2023 gacha IIB JIEBB UZD vrach lavozimida ishladim, hozirgi kunda Medad Med klinikasida ishlab kelaman, umumiy staj 18 yil"
     },
     {
@@ -96,7 +96,7 @@
         "number": "specialists-9",
         "position": "Nevrapotolog",
         "posTrans": "spets-8pos",
-        "image": "../styles/assets/imgs/otkirov.png",
+        "image": "../styles/assets/imgs/otkirov.webp",
         "description": "2-toifali shifokor 2000 yildan 2007 yilgacha ToshPMI medped yaniy kasbiy ta'lim va pediatriya yo'nalishi,  2007-2009 yil ordinaturani tibbiy radiologiya bo'yicha tamomladim. 2009- 2010 yil ToshPMI klinikasi Nur diagnostika va travmatologiya ortopedi kafedrasida katta laborant lavozamida, 2010 yildan 2023 gacha IIB JIEBB UZD vrach lavozimida ishladim, hozirgi kunda Medad Med klinikasida ishlab kelaman, umumiy staj 18 yil"
     },
     {
@@ -106,7 +106,7 @@
         "number": "specialists-10",
         "position": "Vrach-Laborant",
         "posTrans": "spets-10pos",
-        "image": "../styles/assets/imgs/shahnoza.png",
+        "image": "../styles/assets/imgs/shahnoza.webp",
         "description": "Toshkent Pediatriya tibbiyot institutini so’ngra Vrachlar Malaksini oshirish institutini Klinik laboratoriya diagnostikasi yo’nalishini bitirganman. Xozirgi kunda laborant vrach lavozimida  ish yuritaman. Faoliyatim davomida klinik tekshiruvlar, bioximik tahlillar, mikroskopik tekshiruvlar olib boraman. Toshkent dermotologik dispanser laboratoriyasida klinik mikroskopik tekshiruvlar bo’yicha o’qib malaka oshirganman."
     },
     {
