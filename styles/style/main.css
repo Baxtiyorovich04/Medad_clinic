@@ -755,15 +755,85 @@ iframe .map-widget-content-view__frame {
 
 #preloader {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100vh;
-  background: #fff;
+  height: 100%;
+  background: linear-gradient(135deg, #107ee5, #0056b3);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9999;
+  transition: opacity 0.5s ease;
+  overflow: hidden;
+}
+#preloader::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
+  animation: rotate 10s linear infinite;
+}
+#preloader .loader {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+}
+#preloader .loader::before, #preloader .loader::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: spin 1s linear infinite;
+}
+#preloader .loader::after {
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  animation: spin 1s linear infinite reverse;
+}
+#preloader .loader .loader-text {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: pulse 1.5s ease-in-out infinite;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 .Preloader-box {
   display: flex;
   align-items: center;
@@ -776,14 +846,6 @@ iframe .map-widget-content-view__frame {
   font-family: "";
   animation: Scale 3s linear infinite;
   text-align: center;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 @keyframes Scale {
   0% {
