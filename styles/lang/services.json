@@ -13,7 +13,7 @@
                     "name-trans": "spets-1name",
                     "position": "spets-1pos",
                     "positionTrans": "spets-1pos",
-                    "image": "../styles/assets/imgs/atnayazov.png"
+                    "image": "../styles/assets/imgs/atnayazov.webp"
                 },
                 {
                     "id": "hudoyberdiyev",
@@ -21,7 +21,7 @@
                     "name-trans": "spets-10name",
                     "position": "spets-10pos",
                     "positionTrans": "spets-10pos",
-                    "image": "../styles/assets/imgs/hudoyberdiyev.jpg"
+                    "image": "../styles/assets/imgs/hudoyberdiyev.webp"
                 },
                 {
                     "id": "raxmatovich",
@@ -29,7 +29,7 @@
                     "name-trans": "director-name",
                     "position": "director-pos",
                     "positionTrans": "director-pos",
-                    "image": "../styles/assets/imgs/direktor.png"
+                    "image": "../styles/assets/imgs/direktor.webp"
                 }
             ],
             "prices": [
@@ -311,7 +311,7 @@
                     "name-trans": "spets-4name",
                     "position": "spets-4pos",
                     "positionTrans": "spets-4pos",
-                    "image": "../styles/assets/imgs/ganjiyeva.png"
+                    "image": "../styles/assets/imgs/ganjiyeva.webp"
                 }
             ],
             "prices": [
@@ -426,7 +426,7 @@
                     "name-trans": "spets-3name",
                     "position": "spets-3pos",
                     "positionTrans": "spets-3pos",
-                    "image": "../styles/assets/imgs/Kurbanbayeva.png"
+                    "image": "../styles/assets/imgs/Kurbanbayeva.webp"
                 }
             ],
             "prices": [
@@ -556,7 +556,7 @@
                     "name-trans": "spets-1name",
                     "position": "spets-1pos",
                     "positionTrans": "spets-1pos",
-                    "image": "../styles/assets/imgs/atnayazov.png"
+                    "image": "../styles/assets/imgs/atnayazov.webp"
                 }
             ],
             "prices": [
