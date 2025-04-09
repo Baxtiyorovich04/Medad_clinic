@@ -1141,7 +1141,7 @@ iframe .map-widget-content-view__frame {
     text-align: center;
   }
   .welcome img {
-    width: 80%;
+    width: 114%;
   }
 }
 swiper-container {
@@ -1876,6 +1876,208 @@ swiper-container {
   }
   .advantages .advantages-grid {
     grid-template-columns: 1fr;
+  }
+}
+.nurses-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
+  position: relative;
+  overflow: hidden;
+}
+.nurses-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  z-index: 0;
+}
+.nurses-section .nurses-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #107ee5;
+  font-weight: 800;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.nurses-section .nurses-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #107ee5, #0056b3);
+  border-radius: 2px;
+}
+.nurses-section .nurses-carousel {
+  position: relative;
+  padding: 20px 0;
+}
+.nurses-section .nurses-carousel .nurse-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nurses-section .nurses-carousel .nurse-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: 0.5s;
+}
+.nurses-section .nurses-carousel .nurse-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.nurses-section .nurses-carousel .nurse-card:hover::before {
+  left: 100%;
+}
+.nurses-section .nurses-carousel .nurse-card:hover .nurse-image img {
+  transform: scale(1.05);
+}
+.nurses-section .nurses-carousel .nurse-card:hover .nurse-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+.nurses-section .nurses-carousel .nurse-card .nurse-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.nurses-section .nurses-carousel .nurse-card .nurse-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.nurses-section .nurses-carousel .nurse-card .nurse-info {
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+.nurses-section .nurses-carousel .nurse-card .nurse-info h3 {
+  color: #107ee5;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.nurses-section .nurses-carousel .nurse-card .nurse-info p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.nurses-section .nurses-carousel .swiper-button-next,
+.nurses-section .nurses-carousel .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  background: #107ee5;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+.nurses-section .nurses-carousel .swiper-button-next::after,
+.nurses-section .nurses-carousel .swiper-button-prev::after {
+  font-size: 20px;
+}
+.nurses-section .nurses-carousel .swiper-button-next:hover,
+.nurses-section .nurses-carousel .swiper-button-prev:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+}
+.nurses-section .nurses-carousel .swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+.nurses-section .nurses-carousel .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #107ee5;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.nurses-section .nurses-carousel .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+@media (max-width: 992px) {
+  .nurses-section {
+    padding: 40px 0;
+  }
+  .nurses-section .nurses-title {
+    font-size: 2rem;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-image {
+    height: 250px;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-info {
+    padding: 15px;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-info h3 {
+    font-size: 1.2rem;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-info p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .nurses-section {
+    padding: 30px 0;
+  }
+  .nurses-section .nurses-title {
+    font-size: 1.8rem;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-image {
+    height: 200px;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-info {
+    padding: 10px;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-info h3 {
+    font-size: 1.1rem;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-info p {
+    font-size: 0.85rem;
+  }
+  .nurses-section .nurses-carousel .swiper-button-next,
+  .nurses-section .nurses-carousel .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+  .nurses-section .nurses-carousel .swiper-button-next::after,
+  .nurses-section .nurses-carousel .swiper-button-prev::after {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .nurses-section .nurses-title {
+    font-size: 1.6rem;
+  }
+  .nurses-section .nurses-carousel .nurse-card .nurse-image {
+    height: 180px;
   }
 }
 #doctor-details {

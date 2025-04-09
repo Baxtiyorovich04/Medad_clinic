@@ -876,7 +876,7 @@
         text-align: center;
 
         img {
-            width: 80%;
+            width: 114%;
         }
     }
 }
@@ -1131,9 +1131,9 @@ swiper-container {
         }
 
         .doctor-buttons {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
             gap: 15px;
             width: 100%;
 
@@ -1158,7 +1158,7 @@ swiper-container {
                 box-shadow: 0 2px 8px rgba(16, 126, 229, 0.2);
                 white-space: nowrap;
                 margin-top: 31px;
-                position: relative;
+    position: relative;
                 top: 10px;
 
                 &:hover {
@@ -1175,7 +1175,7 @@ swiper-container {
     }
 }
 
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
     .doctor-card {
         flex-direction: column;
         max-width: 350px;
@@ -1208,8 +1208,8 @@ swiper-container {
 }
 
 .service-box {
-    background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
-    border-radius: 20px;
+        background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
+        border-radius: 20px;
     padding: 30px;
     position: relative;
     overflow: hidden;
@@ -1705,6 +1705,254 @@ swiper-container {
 
         .advantages-grid {
             grid-template-columns: 1fr;
+        }
+    }
+}
+
+.nurses-section {
+    padding: 60px 0;
+    background: linear-gradient(135deg, rgba(214, 227, 253, 0.3), rgba(1, 105, 216, 0.2));
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+        z-index: 0;
+    }
+
+    .nurses-title {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #107ee5;
+        font-weight: 800;
+        margin-bottom: 40px;
+        position: relative;
+        padding-bottom: 15px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #107ee5, #0056b3);
+            border-radius: 2px;
+        }
+    }
+
+    .nurses-carousel {
+        position: relative;
+        padding: 20px 0;
+
+        .nurse-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                transition: 0.5s;
+            }
+
+            &:hover {
+                transform: translateY(-10px) scale(1.02);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+                &::before {
+                    left: 100%;
+                }
+
+                .nurse-image img {
+                    transform: scale(1.05);
+                }
+
+                .nurse-info {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .nurse-image {
+                width: 100%;
+                height: 300px;
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform 0.4s ease;
+                }
+            }
+
+            .nurse-info {
+                padding: 20px;
+                text-align: center;
+                background: rgba(255, 255, 255, 0.9);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                opacity: 0;
+                transform: translateY(20px);
+                transition: all 0.4s ease;
+
+                h3 {
+                    color: #107ee5;
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    color: #333;
+                    font-size: 1rem;
+                    line-height: 1.4;
+                }
+            }
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            width: 50px;
+            height: 50px;
+            background: #107ee5;
+            border-radius: 50%;
+            color: white;
+            transition: all 0.3s ease;
+
+            &::after {
+                font-size: 20px;
+            }
+
+            &:hover {
+                background: #0056b3;
+                transform: scale(1.1);
+            }
+        }
+
+        .swiper-pagination {
+            position: relative;
+            margin-top: 20px;
+
+            .swiper-pagination-bullet {
+                width: 12px;
+                height: 12px;
+                background: #107ee5;
+                opacity: 0.5;
+                transition: all 0.3s ease;
+
+                &-active {
+                    opacity: 1;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .nurses-section {
+        padding: 40px 0;
+
+        .nurses-title {
+            font-size: 2rem;
+        }
+
+        .nurses-carousel {
+            .nurse-card {
+                .nurse-image {
+                    height: 250px;
+                }
+
+                .nurse-info {
+                    padding: 15px;
+
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nurses-section {
+        padding: 30px 0;
+
+        .nurses-title {
+            font-size: 1.8rem;
+        }
+
+        .nurses-carousel {
+            .nurse-card {
+                .nurse-image {
+                    height: 200px;
+                }
+
+                .nurse-info {
+                    padding: 10px;
+
+                    h3 {
+                        font-size: 1.1rem;
+                    }
+
+                    p {
+                        font-size: 0.85rem;
+                    }
+                }
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                width: 40px;
+                height: 40px;
+
+                &::after {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .nurses-section {
+        .nurses-title {
+            font-size: 1.6rem;
+        }
+
+        .nurses-carousel {
+            .nurse-card {
+                .nurse-image {
+                    height: 180px;
+                }
+            }
         }
     }
 }

@@ -103,7 +103,15 @@
                     "name-trans": "spets-7name",
                     "position": "spets-7pos",
                     "positionTrans": "spets-7pos",
-                    "image": "../styles/assets/imgs/botirovna.webp"
+                    "image": "../styles/assets/imgs/mirubaydullayeva.webp"
+                },
+                {
+                    "id": "ataniyazov",
+                    "name": "spets-1name",
+                    "name-trans": "spets-1name",
+                    "position": "spets-1pos",
+                    "positionTrans": "spets-1pos",
+                    "image": "../styles/assets/imgs/atnayazov.webp"
                 }
             ],
             "prices": [
@@ -312,6 +320,22 @@
                     "position": "spets-4pos",
                     "positionTrans": "spets-4pos",
                     "image": "../styles/assets/imgs/ganjiyeva.webp"
+                },
+                {
+                    "id": "Kuckqarova",
+                    "name": "spets-6name",
+                    "name-trans": "spets-6name",
+                    "position": "spets-6pos",
+                    "positionTrans": "spets-6pos",
+                    "image": "../styles/assets/imgs/Kuckarova.webp"
+                },
+                {
+                    "id": "Botirovna",
+                    "name": "spets-11name",
+                    "name-trans": "spets-11name",
+                    "position": "spets-11pos",
+                    "positionTrans": "spets-11pos",
+                    "image": "../styles/assets/imgs/botirovna.webp"
                 }
             ],
             "prices": [
@@ -445,7 +469,55 @@
                 {
                     "name": "Повторный осмотр",
                     "name-trans": "povtornyy-osmotr"
-                }
+                },
+                {
+                    "name": "Ишемические болезни сердца",
+                    "name-trans": "ischemic-heart-diseases"
+                  },
+                  {
+                    "name": "Инфаркт миокарда",
+                    "name-trans": "myocardial-infarction"
+                  },
+                  {
+                    "name": "Гипертонические болезни",
+                    "name-trans": "hypertensive-diseases"
+                  },
+                  {
+                    "name": "Разные виды аритмии сердца",
+                    "name-trans": "various-heart-arrhythmias"
+                  },
+                  {
+                    "name": "Разные виды блокады сердца",
+                    "name-trans": "various-heart-blocks"
+                  },
+                  {
+                    "name": "Хронический сердечный недостаточность (с низким фв)",
+                    "name-trans": "chronic-heart-failure-low-ef"
+                  },
+                  {
+                    "name": "Разные виды кардиомиопатии",
+                    "name-trans": "various-cardiomyopathies"
+                  },
+                  {
+                    "name": "Хронический ревматический болезень сердца",
+                    "name-trans": "chronic-rheumatic-heart-disease"
+                  },
+                  {
+                    "name": "Приобретённый порок сердца",
+                    "name-trans": "acquired-heart-defect"
+                  },
+                  {
+                    "name": "Врождённый порок сердца",
+                    "name-trans": "congenital-heart-defect"
+                  },
+                  {
+                    "name": "Миокардит",
+                    "name-trans": "myocarditis"
+                  },
+                  {
+                    "name": "Эндокардит",
+                    "name-trans": "endocarditis"
+                  }
             ]
         },
         {
@@ -528,7 +600,17 @@
             "title": "Неврология",
             "description-trans": "neurology_des",
             "icon": "fas fa-brain",
-            "doctors": [],
+            "doctors": [
+                {
+                    "id": "muqaddas",
+                    "name": "spets-2name",
+                    "name-trans": "spets-2name",
+                    "position": "spets-2pos",
+                    "positionTrans": "spets-2pos",
+                    "image": "../styles/assets/imgs/expert-one.webp"
+                }
+             
+            ],
             "prices": [
                 {
                     "name": "Первичная консультация невролога",
@@ -557,6 +639,22 @@
                     "position": "spets-1pos",
                     "positionTrans": "spets-1pos",
                     "image": "../styles/assets/imgs/atnayazov.webp"
+                },
+                {
+                    "id": "hudoyberdiyev",
+                    "name": "spets-10name",
+                    "name-trans": "spets-10name",
+                    "position": "spets-10pos",
+                    "positionTrans": "spets-10pos",
+                    "image": "../styles/assets/imgs/hudoyberdiyev.webp"
+                },
+                {
+                    "id": "raxmatovich",
+                    "name": "director-name",
+                    "name-trans": "director-name",
+                    "position": "director-pos",
+                    "positionTrans": "director-pos",
+                    "image": "../styles/assets/imgs/direktor.webp"
                 }
             ],
             "prices": [
@@ -658,6 +756,157 @@
                     "name-trans": "elektroforez"
                 }
             ]
+        },
+        {
+            "key": "djg",
+            "title": "djg",
+            "description-trans": "djg_description",
+            "icon": "fas fa-child",
+            "doctors": [],
+            "prices": [
+               
+            ]
+        },
+        {
+            "key": "terapevt",
+            "title": "therapist",
+            "description-trans": "terapevt_description",
+            "icon": "fas fa-child",
+            "doctors": [
+                {
+                    "id": "sharipovna",
+                    "name": "spets-3name",
+                    "name-trans": "spets-3name",
+                    "position": "spets-3pos",
+                    "positionTrans": "spets-3pos",
+                    "image": "../styles/assets/imgs/Kurbanbayeva.webp"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Респираторные инфекции",
+                    "name-trans": "respiratory-infections"
+                  },
+                  {
+                    "name": "Бронхит",
+                    "name-trans": "bronchitis"
+                  },
+                  {
+                    "name": "Пневмония",
+                    "name-trans": "pneumonia"
+                  },
+                  {
+                    "name": "Гастрит и язвенная болезнь",
+                    "name-trans": "gastritis-ulcer"
+                  },
+                  {
+                    "name": "Синдром раздраженного кишечника",
+                    "name-trans": "irritable-bowel"
+                  },
+                  {
+                    "name": "Анемия",
+                    "name-trans": "anemia"
+                  },
+                  {
+                    "name": "Авитаминоз",
+                    "name-trans": "vitamin-deficiency"
+                  },
+                  {
+                    "name": "Заболевания щитовидной железы",
+                    "name-trans": "thyroid-disorders"
+                  },
+                  {
+                    "name": "Сахарный диабет",
+                    "name-trans": "diabetes"
+                  },
+                  {
+                    "name": "Ожирение",
+                    "name-trans": "obesity"
+                  },
+                  {
+                    "name": "Боли в суставах",
+                    "name-trans": "joint-pain"
+                  },
+                  {
+                    "name": "Хроническая усталость",
+                    "name-trans": "chronic-fatigue"
+                  },
+                  {
+                    "name": "Повышенный холестерин",
+                    "name-trans": "high-cholesterol"
+                  }
+                  
+               
+            ]
+        },
+        {
+            "key": "nevrologik",
+            "title": "nevrologik",
+            "description-trans": "nevrologik_description",
+            "icon": "fas fa-brain",
+            "doctors": [
+                {
+                    "id": "otkir",
+                    "name": "spets-8name",
+                    "name-trans": "spets-8name",
+                    "position": "spets-8pos",
+                    "positionTrans": "spets-8pos",
+                    "image": "../styles/assets/imgs/otkirov.webp"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Головная боль и мигрень",
+                    "name-trans": "headache-migraine"
+                  },
+                  {
+                    "name": "Инсульт",
+                    "name-trans": "stroke"
+                  },
+                  {
+                    "name": "Эпилепсия",
+                    "name-trans": "epilepsy"
+                  },
+                  {
+                    "name": "Невралгия тройничного нерва",
+                    "name-trans": "trigeminal-neuralgia"
+                  },
+                  {
+                    "name": "Бессонница и другие расстройства сна",
+                    "name-trans": "sleep-disorders"
+                  },
+                  {
+                    "name": "Болезнь Паркинсона",
+                    "name-trans": "parkinsons-disease"
+                  },
+                  {
+                    "name": "Рассеянный склероз",
+                    "name-trans": "multiple-sclerosis"
+                  },
+                  {
+                    "name": "Последствия черепно-мозговой травмы",
+                    "name-trans": "head-trauma-consequences"
+                  },
+                  {
+                    "name": "Периферическая невропатия",
+                    "name-trans": "peripheral-neuropathy"
+                  },
+                  {
+                    "name": "Онемение и покалывание",
+                    "name-trans": "numbness-tingling"
+                  },
+                  {
+                    "name": "Шейный остеохондроз",
+                    "name-trans": "cervical-osteochondrosis"
+                  },
+                  {
+                    "name": "Вегетососудистая дистония",
+                    "name-trans": "vascular-dystonia"
+                  }
+                  
+            ]
         }
+
+
     ]
 }

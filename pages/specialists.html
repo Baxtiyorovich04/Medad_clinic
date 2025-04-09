@@ -196,24 +196,97 @@
             </div>
         </div>
     </section>
+    <section class="nurses-section">
+        <div class="container">
+            <h2 class="nurses-title" data-key="nurses-title">Hamshiralar</h2>
+            <div class="nurses-carousel">
+                <div class="swiper nurses-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="nurse-card">
+                                <div class="nurse-image">
+                                    <img src="../styles/assets/imgs/botirovna.webp" alt="Nurse 1">
+                                </div>
+                                <div class="nurse-info">
+                                    <h3 data-key="nurse1-name">Nurse Name 1</h3>
+                                    <p data-key="nurse1-position">Senior Nurse</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="nurse-card">
+                                <div class="nurse-image">
+                                    <img src="../styles/assets/imgs/botirovna.webp" alt="Nurse 2">
+                                </div>
+                                <div class="nurse-info">
+                                    <h3 data-key="nurse2-name">Nurse Name 2</h3>
+                                    <p data-key="nurse2-position">Pediatric Nurse</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="nurse-card">
+                                <div class="nurse-image">
+                                    <img src="../styles/assets/imgs/botirovna.webp" alt="Nurse 3">
+                                </div>
+                                <div class="nurse-info">
+                                    <h3 data-key="nurse3-name">Nurse Name 3</h3>
+                                    <p data-key="nurse3-position">Emergency Nurse</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="nurse-card">
+                                <div class="nurse-image">
+                                    <img src="../styles/assets/imgs/botirovna.webp" alt="Nurse 4">
+                                </div>
+                                <div class="nurse-info">
+                                    <h3 data-key="nurse4-name">Nurse Name 4</h3>
+                                    <p data-key="nurse4-position">Surgical Nurse</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const nursesSwiper = new Swiper('.nurses-swiper', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    576: {
+                        slidesPerView: 2,
+                    },
+                    992: {
+                        slidesPerView: 3,
+                    },
+                    1200: {
+                        slidesPerView: 4,
+                    }
+                }
+            });
+        });
+    </script>
 
     </div>
     <footer>
