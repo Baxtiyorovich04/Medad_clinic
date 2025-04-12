@@ -854,57 +854,69 @@
                     "image": "../styles/assets/imgs/otkirov.webp"
                 }
             ],
-            "prices": [
+            "prices":[
                 {
-                    "name": "Головная боль и мигрень",
-                    "name-trans": "headache-migraine"
-                  },
-                  {
-                    "name": "Инсульт",
-                    "name-trans": "stroke"
-                  },
-                  {
-                    "name": "Эпилепсия",
-                    "name-trans": "epilepsy"
-                  },
-                  {
-                    "name": "Невралгия тройничного нерва",
-                    "name-trans": "trigeminal-neuralgia"
-                  },
-                  {
-                    "name": "Бессонница и другие расстройства сна",
-                    "name-trans": "sleep-disorders"
-                  },
-                  {
-                    "name": "Болезнь Паркинсона",
-                    "name-trans": "parkinsons-disease"
-                  },
-                  {
-                    "name": "Рассеянный склероз",
-                    "name-trans": "multiple-sclerosis"
-                  },
-                  {
-                    "name": "Последствия черепно-мозговой травмы",
-                    "name-trans": "head-trauma-consequences"
-                  },
-                  {
-                    "name": "Периферическая невропатия",
-                    "name-trans": "peripheral-neuropathy"
-                  },
-                  {
-                    "name": "Онемение и покалывание",
-                    "name-trans": "numbness-tingling"
-                  },
-                  {
-                    "name": "Шейный остеохондроз",
-                    "name-trans": "cervical-osteochondrosis"
-                  },
-                  {
-                    "name": "Вегетососудистая дистония",
-                    "name-trans": "vascular-dystonia"
-                  }
-                  
-            ]
+                  "name": "Головная боль и мигрень",
+                  "name-trans": "headache-migraine"
+            
+                },
+                {
+                  "name": "Инсульт",
+                  "name-trans": "stroke",
+                  "cost": ""
+                },
+                {
+                  "name": "Эпилепсия",
+                  "name-trans": "epilepsy",
+                  "cost": "300 000"
+                },
+                {
+                  "name": "Невралгия тройничного нерва",
+                  "name-trans": "trigeminal-neuralgia",
+                  "cost": "250 000"
+                },
+                {
+                  "name": "Бессонница и другие расстройства сна",
+                  "name-trans": "sleep-disorders",
+                  "cost": "200 000"
+                },
+                {
+                  "name": "Болезнь Паркинсона",
+                  "name-trans": "parkinsons-disease",
+                  "cost": "500 000"
+                },
+                {
+                  "name": "Рассеянный склероз",
+                  "name-trans": "multiple-sclerosis",
+                  "cost": "450 000"
+                },
+                {
+                  "name": "Последствия черепно-мозговой травмы",
+                  "name-trans": "head-trauma-consequences",
+                  "cost": "350 000"
+                },
+                {
+                  "name": "Периферическая невропатия",
+                  "name-trans": "peripheral-neuropathy",
+                  "cost": "250 000"
+                },
+                {
+                  "name": "Онемение и покалывание",
+                  "name-trans": "numbness-tingling",
+                  "cost": "200 000"
+                },
+                {
+                  "name": "Шейный остеохондроз",
+                  "name-trans": "cervical-osteochondrosis",
+                  "cost": "220 000"
+                },
+                {
+                  "name": "Вегетососудистая дистония",
+                  "name-trans": "vascular-dystonia",
+                  "cost": "230 000"
+                }
+              ]
+              
         }
 
 

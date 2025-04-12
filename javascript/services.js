@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     <ul class="services-list">
         ${serviceData.prices.map(price => `
             <li data-key="${price['name-trans']}">
-                <span>${price.name} - ${price.cost} <span data-key="currency-sum">сум</span></span>
+                <span>${price.name}</span>
             </li>
         `).join("")}
     </ul>
