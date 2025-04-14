@@ -106,12 +106,12 @@
                     "image": "../styles/assets/imgs/mirubaydullayeva.webp"
                 },
                 {
-                    "id": "ataniyazov",
-                    "name": "spets-1name",
-                    "name-trans": "spets-1name",
-                    "position": "spets-1pos",
-                    "positionTrans": "spets-1pos",
-                    "image": "../styles/assets/imgs/atnayazov.webp"
+                    "id": "raxmatovich",
+                    "name": "director-name",
+                    "name-trans": "director-name",
+                    "position": "director-pos",
+                    "positionTrans": "director-pos",
+                    "image": "../styles/assets/imgs/direktor.webp"
                 }
             ],
             "prices": [
@@ -203,16 +203,6 @@
                     "name": "УЗИ скрининг плода с 28 недели",
                     "name-trans": "uzi-fetal-screening-28-weeks",
                     "cost": "150 000"
-                },
-                {
-                    "name": "Первичная консультация невролога (невропатолога)",
-                    "name-trans": "neurologist-initial-consultation",
-                    "cost": "150 000"
-                },
-                {
-                    "name": "Вторичная консультация невролога (невропатолога)",
-                    "name-trans": "neurologist-follow-up-consultation",
-                    "cost": "100 000"
                 }
             ]
         },
@@ -473,51 +463,51 @@
                 {
                     "name": "Ишемические болезни сердца",
                     "name-trans": "ischemic-heart-diseases"
-                  },
-                  {
+                },
+                {
                     "name": "Инфаркт миокарда",
                     "name-trans": "myocardial-infarction"
-                  },
-                  {
+                },
+                {
                     "name": "Гипертонические болезни",
                     "name-trans": "hypertensive-diseases"
-                  },
-                  {
+                },
+                {
                     "name": "Разные виды аритмии сердца",
                     "name-trans": "various-heart-arrhythmias"
-                  },
-                  {
+                },
+                {
                     "name": "Разные виды блокады сердца",
                     "name-trans": "various-heart-blocks"
-                  },
-                  {
+                },
+                {
                     "name": "Хронический сердечный недостаточность (с низким фв)",
                     "name-trans": "chronic-heart-failure-low-ef"
-                  },
-                  {
+                },
+                {
                     "name": "Разные виды кардиомиопатии",
                     "name-trans": "various-cardiomyopathies"
-                  },
-                  {
+                },
+                {
                     "name": "Хронический ревматический болезень сердца",
                     "name-trans": "chronic-rheumatic-heart-disease"
-                  },
-                  {
+                },
+                {
                     "name": "Приобретённый порок сердца",
                     "name-trans": "acquired-heart-defect"
-                  },
-                  {
+                },
+                {
                     "name": "Врождённый порок сердца",
                     "name-trans": "congenital-heart-defect"
-                  },
-                  {
+                },
+                {
                     "name": "Миокардит",
                     "name-trans": "myocarditis"
-                  },
-                  {
+                },
+                {
                     "name": "Эндокардит",
                     "name-trans": "endocarditis"
-                  }
+                }
             ]
         },
         {
@@ -609,7 +599,6 @@
                     "positionTrans": "spets-2pos",
                     "image": "../styles/assets/imgs/expert-one.webp"
                 }
-             
             ],
             "prices": [
                 {
@@ -764,7 +753,31 @@
             "icon": "fas fa-child",
             "doctors": [],
             "prices": [
-               
+                {
+                    "name": "Физиотерапия электрофорез",
+                    "name-trans": "physiotherapy-electrophoresis",
+                    "cost": "80 000"
+                },
+                {
+                    "name": "Лечебная гимнастика",
+                    "name-trans": "therapeutic-gymnastics",
+                    "cost": "100 000"
+                },
+                {
+                    "name": "Магнитотерапия",
+                    "name-trans": "magnetotherapy",
+                    "cost": "90 000"
+                },
+                {
+                    "name": "Ультразвуковая терапия",
+                    "name-trans": "ultrasound-therapy",
+                    "cost": "120 000"
+                },
+                {
+                    "name": "Парафинотерапия",
+                    "name-trans": "paraffin-therapy",
+                    "cost": "70 000"
+                }
             ]
         },
         {
@@ -786,57 +799,55 @@
                 {
                     "name": "Респираторные инфекции",
                     "name-trans": "respiratory-infections"
-                  },
-                  {
+                },
+                {
                     "name": "Бронхит",
                     "name-trans": "bronchitis"
-                  },
-                  {
+                },
+                {
                     "name": "Пневмония",
                     "name-trans": "pneumonia"
-                  },
-                  {
+                },
+                {
                     "name": "Гастрит и язвенная болезнь",
                     "name-trans": "gastritis-ulcer"
-                  },
-                  {
+                },
+                {
                     "name": "Синдром раздраженного кишечника",
                     "name-trans": "irritable-bowel"
-                  },
-                  {
+                },
+                {
                     "name": "Анемия",
                     "name-trans": "anemia"
-                  },
-                  {
+                },
+                {
                     "name": "Авитаминоз",
                     "name-trans": "vitamin-deficiency"
-                  },
-                  {
+                },
+                {
                     "name": "Заболевания щитовидной железы",
                     "name-trans": "thyroid-disorders"
-                  },
-                  {
+                },
+                {
                     "name": "Сахарный диабет",
                     "name-trans": "diabetes"
-                  },
-                  {
+                },
+                {
                     "name": "Ожирение",
                     "name-trans": "obesity"
-                  },
-                  {
+                },
+                {
                     "name": "Боли в суставах",
                     "name-trans": "joint-pain"
-                  },
-                  {
+                },
+                {
                     "name": "Хроническая усталость",
                     "name-trans": "chronic-fatigue"
-                  },
-                  {
+                },
+                {
                     "name": "Повышенный холестерин",
                     "name-trans": "high-cholesterol"
-                  }
-                  
-               
+                }
             ]
         },
         {
@@ -854,71 +865,201 @@
                     "image": "../styles/assets/imgs/otkirov.webp"
                 }
             ],
-            "prices":[
+            "prices": [
                 {
-                  "name": "Головная боль и мигрень",
-                  "name-trans": "headache-migraine"
-            
+                    "name": "Головная боль и мигрень",
+                    "name-trans": "headache-migraine"
                 },
                 {
-                  "name": "Инсульт",
-                  "name-trans": "stroke",
-                  "cost": ""
+                    "name": "Инсульт",
+                    "name-trans": "stroke",
+                    "cost": ""
                 },
                 {
-                  "name": "Эпилепсия",
-                  "name-trans": "epilepsy",
-                  "cost": "300 000"
+                    "name": "Эпилепсия",
+                    "name-trans": "epilepsy",
+                    "cost": "300 000"
                 },
                 {
-                  "name": "Невралгия тройничного нерва",
-                  "name-trans": "trigeminal-neuralgia",
-                  "cost": "250 000"
+                    "name": "Невралгия тройничного нерва",
+                    "name-trans": "trigeminal-neuralgia",
+                    "cost": "250 000"
                 },
                 {
-                  "name": "Бессонница и другие расстройства сна",
-                  "name-trans": "sleep-disorders",
-                  "cost": "200 000"
+                    "name": "Бессонница и другие расстройства сна",
+                    "name-trans": "sleep-disorders",
+                    "cost": "200 000"
                 },
                 {
-                  "name": "Болезнь Паркинсона",
-                  "name-trans": "parkinsons-disease",
-                  "cost": "500 000"
+                    "name": "Болезнь Паркинсона",
+                    "name-trans": "parkinsons-disease",
+                    "cost": "500 000"
                 },
                 {
-                  "name": "Рассеянный склероз",
-                  "name-trans": "multiple-sclerosis",
-                  "cost": "450 000"
+                    "name": "Рассеянный склероз",
+                    "name-trans": "multiple-sclerosis",
+                    "cost": "450 000"
                 },
                 {
-                  "name": "Последствия черепно-мозговой травмы",
-                  "name-trans": "head-trauma-consequences",
-                  "cost": "350 000"
+                    "name": "Последствия черепно-мозговой травмы",
+                    "name-trans": "head-trauma-consequences",
+                    "cost": "350 000"
                 },
                 {
-                  "name": "Периферическая невропатия",
-                  "name-trans": "peripheral-neuropathy",
-                  "cost": "250 000"
+                    "name": "Периферическая невропатия",
+                    "name-trans": "peripheral-neuropathy",
+                    "cost": "250 000"
                 },
                 {
-                  "name": "Онемение и покалывание",
-                  "name-trans": "numbness-tingling",
-                  "cost": "200 000"
+                    "name": "Онемение и покалывание",
+                    "name-trans": "numbness-tingling",
+                    "cost": "200 000"
                 },
                 {
-                  "name": "Шейный остеохондроз",
-                  "name-trans": "cervical-osteochondrosis",
-                  "cost": "220 000"
+                    "name": "Шейный остеохондроз",
+                    "name-trans": "cervical-osteochondrosis",
+                    "cost": "220 000"
                 },
                 {
-                  "name": "Вегетососудистая дистония",
-                  "name-trans": "vascular-dystonia",
-                  "cost": "230 000"
+                    "name": "Вегетососудистая дистония",
+                    "name-trans": "vascular-dystonia",
+                    "cost": "230 000"
                 }
-              ]
-              
+            ]
+        },
+        {
+            "key": "psix",
+            "title": "psychiatrist",
+            "description-trans": "psycho-neurology",
+            "icon": "fas fa-brain",
+            "doctors": [
+                {
+                    "id": "otkir",
+                    "name": "spets-8name",
+                    "name-trans": "spets-8name",
+                    "position": "spets-8pos",
+                    "positionTrans": "spets-8pos",
+                    "image": "../styles/assets/imgs/otkirov.webp"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Консультация психоневролога",
+                    "name-trans": "psycho-neurologist-consultation"
+                },
+                {
+                    "name": "Психотерапия",
+                    "name-trans": "psychotherapy"
+                },
+                {
+                    "name": "Медикаментозное лечение",
+                    "name-trans": "drug-treatment"
+                },
+                {
+                    "name": "Диагностика нервной системы",
+                    "name-trans": "nervous-system-diagnostics"
+                },
+                {
+                    "name": "Наблюдение при хронических расстройствах",
+                    "name-trans": "chronic-disorder-monitoring"
+                },
+                {
+                    "name": "Назначение плана индивидуальной терапии",
+                    "name-trans": "individual-therapy-plan"
+                }
+            ]
+        },
+        {
+            "key": "lab",
+            "title": "laboratory",
+            "description-trans": "lab",
+            "icon": "fas fa-microscope",
+            "doctors": [
+                {
+                    "id": "toshkenbayeva",
+                    "name": "spets-9name",
+                    "name-trans": "spets-9name",
+                    "position": "spets-9pos",
+                    "positionTrans": "spets-9pos",
+                    "image": "../styles/assets/imgs/shahnoza.webp"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Общий анализ крови",
+                    "name-trans": "general-blood-test"
+                },
+                {
+                    "name": "Общий анализ мочи",
+                    "name-trans": "general-urine-test"
+                },
+                {
+                    "name": "Биохимический анализ крови",
+                    "name-trans": "biochemical-blood-test"
+                },
+                {
+                    "name": "Анализ на гормоны",
+                    "name-trans": "hormone-test"
+                },
+                {
+                    "name": "Анализ на инфекции",
+                    "name-trans": "infection-test"
+                },
+                {
+                    "name": "Коагулограмма",
+                    "name-trans": "coagulogram"
+                },
+                {
+                    "name": "Анализ кала",
+                    "name-trans": "stool-test"
+                }
+            ]
+        },
+        {
+            "key": "lecaniya",
+            "title": "laboratory",
+            "description-trans": "lab",
+            "icon": "fas fa-microscope",
+            "doctors": [
+                {
+                    "id": "toshkenbayeva",
+                    "name": "spets-9name",
+                    "name-trans": "spets-9name",
+                    "position": "spets-9pos",
+                    "positionTrans": "spets-9pos",
+                    "image": "../styles/assets/imgs/shahnoza.webp"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Госпитализация",
+                    "name-trans": "hospitalization"
+                },
+                {
+                    "name": "Оперативное лечение",
+                    "name-trans": "surgical-treatment"
+                },
+                {
+                    "name": "Инфузионная терапия",
+                    "name-trans": "infusion-therapy"
+                },
+                {
+                    "name": "Антибактериальная терапия",
+                    "name-trans": "antibacterial-therapy"
+                },
+                {
+                    "name": "Обезболивание",
+                    "name-trans": "pain-relief"
+                },
+                {
+                    "name": "Круглосуточное наблюдение",
+                    "name-trans": "24-hour-monitoring"
+                },
+                {
+                    "name": "Реабилитация после операций",
+                    "name-trans": "post-surgery-rehabilitation"
+                }
+            ]
         }
-
-
     ]
 }
