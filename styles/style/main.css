@@ -2586,11 +2586,13 @@ swiper-container {
 }
 
 .back-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: linear-gradient(135deg, #007bff, #0056b3);
   color: white;
-  padding: 12px 20px;
+  padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
@@ -2599,16 +2601,49 @@ swiper-container {
   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
   position: relative;
   overflow: hidden;
-  margin-left: 20px;
+  white-space: nowrap;
+  min-width: 160px;
+  margin: 10px;
 }
+
 .back-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
   background: linear-gradient(135deg, #0056b3, #007bff);
 }
+
 .back-btn:active {
   transform: scale(0.95);
   box-shadow: 0 3px 6px rgba(0, 123, 255, 0.3);
+}
+
+@media (max-width: 992px) {
+  .back-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    min-width: 140px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-btn {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 16px;
+    font-size: 14px;
+    margin: 8px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .back-btn {
+    max-width: 240px;
+    padding: 8px 14px;
+    font-size: 13px;
+    min-width: 120px;
+    margin: 6px auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2663,13 +2698,20 @@ swiper-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
+
 .service-btn-container .booking {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: linear-gradient(135deg, #007bff, #0056b3);
   color: white;
-  padding: 12px 20px;
+  padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
@@ -2678,16 +2720,61 @@ swiper-container {
   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
   position: relative;
   overflow: hidden;
-  margin-left: 20px;
+  white-space: nowrap;
+  min-width: 160px;
 }
+
 .service-btn-container .booking:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
   background: linear-gradient(135deg, #0056b3, #007bff);
 }
+
 .service-btn-container .booking:active {
   transform: scale(0.95);
   box-shadow: 0 3px 6px rgba(0, 123, 255, 0.3);
+}
+
+@media (max-width: 992px) {
+  .service-btn-container {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .service-btn-container .booking {
+    padding: 10px 20px;
+    font-size: 15px;
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-btn-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .service-btn-container .booking {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-btn-container {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .service-btn-container .booking {
+    max-width: 240px;
+    padding: 8px 14px;
+    font-size: 13px;
+    min-width: 120px;
+  }
 }
 
 * {

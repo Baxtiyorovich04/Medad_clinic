@@ -747,40 +747,6 @@
             ]
         },
         {
-            "key": "djg",
-            "title": "djg",
-            "description-trans": "djg_description",
-            "icon": "fas fa-child",
-            "doctors": [],
-            "prices": [
-                {
-                    "name": "Физиотерапия электрофорез",
-                    "name-trans": "physiotherapy-electrophoresis",
-                    "cost": "80 000"
-                },
-                {
-                    "name": "Лечебная гимнастика",
-                    "name-trans": "therapeutic-gymnastics",
-                    "cost": "100 000"
-                },
-                {
-                    "name": "Магнитотерапия",
-                    "name-trans": "magnetotherapy",
-                    "cost": "90 000"
-                },
-                {
-                    "name": "Ультразвуковая терапия",
-                    "name-trans": "ultrasound-therapy",
-                    "cost": "120 000"
-                },
-                {
-                    "name": "Парафинотерапия",
-                    "name-trans": "paraffin-therapy",
-                    "cost": "70 000"
-                }
-            ]
-        },
-        {
             "key": "terapevt",
             "title": "therapist",
             "description-trans": "terapevt_description",
@@ -1058,6 +1024,61 @@
                 {
                     "name": "Реабилитация после операций",
                     "name-trans": "post-surgery-rehabilitation"
+                }
+            ]
+        },
+        {
+            "key": "pediatrics",
+            "title": "Педиатрия",
+            "title-trans": "pediatrics",
+            "icon": "fas fa-baby",
+            "description-trans": "pediatrics_des",
+            "doctors": [
+                {
+                    "id": "raximova",
+                    "name": "Raximova Muqaddas Zaidovna",
+                    "name-trans": "spets-2name",
+                    "position": "Oliy toifali pediatr va bolalar nevrologi bo'lib (nevropatolog)",
+                    "positionTrans": "spets-2pos",
+                    "image": "../styles/assets/imgs/expert-one.webp"
+                }
+            ],
+            "prices": [
+                {
+                    "name": "Консультация педиатра",
+                    "name-trans": "pediatric-consultation",
+                    "cost": "150 000",
+                    "cost-trans": "currency"
+                },
+                {
+                    "name": "Осмотр новорожденного",
+                    "name-trans": "newborn-examination",
+                    "cost": "200 000",
+                    "cost-trans": "currency"
+                },
+                {
+                    "name": "Вакцинация",
+                    "name-trans": "vaccination",
+                    "cost": "100 000",
+                    "cost-trans": "currency"
+                },
+                {
+                    "name": "Диагностика детских заболеваний",
+                    "name-trans": "child-disease-diagnosis",
+                    "cost": "180 000",
+                    "cost-trans": "currency"
+                },
+                {
+                    "name": "Лечение ОРВИ у детей",
+                    "name-trans": "children-flu-treatment",
+                    "cost": "120 000",
+                    "cost-trans": "currency"
+                },
+                {
+                    "name": "Консультация детского невролога",
+                    "name-trans": "pediatric-neurologist-consultation",
+                    "cost": "200 000",
+                    "cost-trans": "currency"
                 }
             ]
         }
