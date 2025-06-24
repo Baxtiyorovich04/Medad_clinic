@@ -126,7 +126,7 @@
     "cervical-osteochondrosis": "Шейный остеохондроз",
     "vascular-dystonia": "Вегетососудистая дистония",
     "currency": "сум",
-    "director-name": "Илхом Рахматович Кxандаxаров",
+    "director-name": "Илхом Рахматович Кандаxаров",
     "director-pos": "Уролог-андролог, УЗИ-специалист",
     "spets-10name": "Худойбердиев Абдувохид ",
     "spets-10pos": "Уролог-Андролог",
@@ -329,5 +329,6 @@
     "vaccination": "Вакцинация",
     "child-disease-diagnosis": "Диагностика детских заболеваний",
     "children-flu-treatment": "Лечение ОРВИ у детей",
-    "pediatric-neurologist-consultation": "Консультация детского невролога"
+    "pediatric-neurologist-consultation": "Консультация детского невролога",
+    "appointment":"Записатся на прием"
 }
