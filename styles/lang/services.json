@@ -16,14 +16,6 @@
                     "image": "../styles/assets/imgs/atnayazov.webp"
                 },
                 {
-                    "id": "hudoyberdiyev",
-                    "name": "spets-10name",
-                    "name-trans": "spets-10name",
-                    "position": "spets-10pos",
-                    "positionTrans": "spets-10pos",
-                    "image": "../styles/assets/imgs/hudoyberdiyev.webp"
-                },
-                {
                     "id": "raxmatovich",
                     "name": "director-name",
                     "name-trans": "director-name",
@@ -516,7 +508,16 @@
             "title-trans": "hirurguya",
             "icon": "fas fa-syringe",
             "description-trans": "hirurgiya_des",
-            "doctors": [],
+            "doctors": [
+                {
+                    "id": "ahmedov",
+                    "name": "spets-10name",
+                    "name-trans": "spets-10name",
+                    "position": "spets-10pos",
+                    "positionTrans": "spets-10pos",
+                    "image": "../styles/assets/imgs/last_one.png"
+                }
+            ],
             "prices": [
                 {
                     "name": "Вскрытие абсцесса 1-категории сложности",
@@ -628,14 +629,6 @@
                     "position": "spets-1pos",
                     "positionTrans": "spets-1pos",
                     "image": "../styles/assets/imgs/atnayazov.webp"
-                },
-                {
-                    "id": "hudoyberdiyev",
-                    "name": "spets-10name",
-                    "name-trans": "spets-10name",
-                    "position": "spets-10pos",
-                    "positionTrans": "spets-10pos",
-                    "image": "../styles/assets/imgs/hudoyberdiyev.webp"
                 },
                 {
                     "id": "raxmatovich",
