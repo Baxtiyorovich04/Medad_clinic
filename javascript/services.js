@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 </div>
                 <div class="service-btn-container">
  <a href="../index.html" class="btn back-btn" data-key="back"></a>
-                  <a href="tel:+998 33 187 19 29" data-key="booking" class="booking">Qabulga yozilish</a>
+                  <a href="tel:+998 95 790 03 03" data-key="booking" class="booking">Qabulga yozilish</a>
                 </div>
 
                

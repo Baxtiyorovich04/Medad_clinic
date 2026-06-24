@@ -149,19 +149,19 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <p class="doctor-position" data-key="${doctor.posTrans}">${doctor.position}</p>
                 <p class="doctor-description" data-key="${doctor.number}">${doctor.description}</p>
                 <div class="doctor-buttons">
-                    <a href="tel:+998 33 187 19 29" class="appointment-btn" data-key="appointment">Qabulga yozilish</a>
+                    <a href="tel:+998 95 790 03 03" class="appointment-btn" data-key="appointment">Qabulga yozilish</a>
                     <a href="./specialists.html" class="specs-back-btn" data-key="back">Ortga</a>
                 </div>
             </div>
         </div>
-    `; 
+    `;
     } catch (error) {
         console.error("Ошибка загрузки данных о враче:", error);
     }
 });
 
 // Initialize Nurse Carousel
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const nurseSwiper = new Swiper('.nurse-carousel', {
         slidesPerView: 1,
         spaceBetween: 20,
